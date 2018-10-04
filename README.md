@@ -1,4 +1,4 @@
 # epideMidd
-Anna Hoge and Rose Gold\n
+Anna Hoge and Rose Gold
 CSCI0701 Project
 
