@@ -1,0 +1,314 @@
+;;Turtle context
+;;sets the paths/headings for the students and then moves them
+to move-students
+  if not in-line? [
+    ;;we want to set the target patch, then pathfind accordingly
+    enter-path            ; set heading for entering
+    food-path             ; set heading for going to get food
+    sit-path              ; set heading for sitting
+    leave-path            ; set heading for leaving
+    move-all              ; move the turtles
+  ]
+end
+
+
+;;turtle context
+;;calculates the movement distance of the turtles
+;;and adjusts the speed
+;;this causes slowdown in large groups
+to set-speed
+  let num-turtles-in-cone count (turtles in-cone (max-speed * 2) 180)
+  let speed-to-set (max-speed / (num-turtles-in-cone))            ;here we limit the speed in proportion to the amount of turtles in the
+  ;cone of their movement
+  ifelse speed-to-set > 1.5 [  ;this limits the speed
+    set speed speed-to-set
+  ] [
+    set speed 1.5
+  ]
+  if athlete? [   ;athletes are slightly faster
+    set speed speed + 0.5
+  ]
+end
+
+
+
+;;turtle context
+;;actually moves the turtles based on their heading which is preset
+;;turtles are moved fwd by the number of patches specified in "speed"
+to move-all
+  ifelse (first mqueue = "sit") and (distance my-seat <= speed) [       ; puts them in their seat and/or decrements
+    move-to my-seat                                                     ; their time to eat
+    ask my-seat [set seating? false]                                    ; seat's taken
+    set tte tte - 1                                                     ; decrement tte
+    if tte = 0 [
+      set mqueue remove-item 0 mqueue                                   ; if tte is 0 then do next thing
+    ]
+  ][
+    ifelse (first mqueue = "leave") and (distance patch -1 37 <= speed)[    ; if close enough to exit, die
+      die
+    ][
+      ifelse (first mqueue = "enter") and ycor <= 19 [                  ; if entered, then set next thing to do
+        set mqueue remove-item 0 mqueue
+      ][
+        fd speed                                 ; move forward "speed" patches
+      ]
+    ]
+  ]
+  if not empty? stations[                        ; check if you are in a line
+    check-if-in-line
+  ]
+end
+
+
+
+; Turtle Context
+; based on the food station that the turtle is headed to, face it
+to food-path
+  let dest-patch patch -8 37
+  if first mqueue = "food" or first mqueue = "drink"[            ; only need this function if going to food or drink
+    if first mqueue = "drink"[
+      set stations (list "drink")
+    ]
+    let station first stations                                   ; based on station, set correct patch
+    ifelse station = "salad-bar" [
+      set dest-patch one-of patches with [salad-line = "back"] ;our end goal, based on priority
+    ][
+      ifelse station = "station-1" [
+        set dest-patch one-of patches with [station-1-line = "back"]   ; correct patch is back of line of station
+      ][
+        ifelse station = "station-2" [
+          set dest-patch one-of patches with [station-2-line = "back"]
+        ][
+          ifelse station = "pizza" [
+            set dest-patch one-of patches with [pizza-line = "back"]
+          ][
+            ifelse station = "taco" [
+              set dest-patch one-of patches with [taco-line = "back"]
+            ] [
+              set dest-patch one-of patches with [food-type = station]    ; these don't have lines so just go to them
+            ]
+          ]
+        ]
+      ]
+    ]
+    set-heading dest-patch       ; face the correct patch
+  ]
+end
+
+
+;;turtle context
+;;selects a seat if needed, and sets the heading for pathing to that selected seat
+to sit-path
+  if first mqueue = "sit" [
+    ifelse any? patches with[seating? = true and not any? turtles-here][
+      ifelse my-seat = 0 [
+        ;;randomly selects a seat
+        set my-seat one-of patches with[seating? = true and not any? turtles-here]
+      ][
+        if any? (turtles-on my-seat) with [self != myself][
+          ;;accounts for if someone takes your seat before you get there
+          set my-seat one-of patches with[seating? = true and not any? turtles-here]
+        ]
+      ]
+      set-heading my-seat                      ; face seat
+    ][
+      set mqueue remove-item 0 mqueue          ; move onto next movement step
+
+    ]
+  ]
+
+
+end
+
+
+; Turtle Context
+; Directs agents to a patch at the entrance of the exit to prevent them from getting stuck
+; when trying to leave. Also resets seat to empty if leaving from a seat
+to leave-path
+  if first mqueue = "leave" [
+    if my-seat != 0[                           ; set seat to empty if were sitting
+      ask my-seat[set seating? true]
+    ]
+    ifelse (ycor > 19) and (xcor < -4)[                                               ; depending on location
+      set-heading one-of patches with [pycor < 19 and pxcor < -10 and pxcor > -36 ]   ; set new heading
+    ][
+      ifelse ycor < 19 [
+        set-heading patch -1 20                        ; all dependent on location which patch to set heading to
+      ][
+        set-heading patch -1 37
+      ]
+    ]
+  ]
+end
+
+
+; TURTLE CONTEXT
+; Forces turtles to first walk all the way to the end of the entrance before doing anything else
+; If swipes are on, then they do this slowly
+to enter-path
+  if first mqueue = "enter" [
+    ;hardcodes them to enter into the space
+    set-speed
+    if swipes? [set speed 0.5]               ; slow them down to create swipe congestion
+    face one-of patches with[pycor = 19 and (pxcor > -11 and pxcor < -5)]   ; head to the end of the entrance
+
+  ]
+end
+
+
+
+; TURTLE CONTEXT
+; this function sets the heading for each turtles next move.  the movement algorithm
+; essentially sets the turtle's heading in the direction of the closest open patch to the
+; destination. it does this by testing patches in a rotational order.
+to set-heading [dest-patch]
+  let found? false   ;our boolean to let us know we have found our target patch
+  face dest-patch  ;face our total destination, this is where we start
+  set-speed        ; set the speed of the turtle based on surrounding turtles
+  ;;the following statements avoid overshooting the destination patch
+  if not any-barriers-in-line distance dest-patch[
+    if distance dest-patch < speed [
+      set speed distance dest-patch
+      stop
+    ]
+  ]
+  ;;if there is a valid movement option at this heading
+  ;;we can just move to that patch
+  if not check-patch [
+    let angle heading
+    let n 1            ;number of loop interations
+    while [ found? != true ][            ; until we find a valid patch
+      set heading angle + (5 * n)        ; check wider and wider angles
+      if n = 75 [                        ; this is an error catch to prevent infinite looping
+       set n 1
+       set speed speed / 2               ; makes radius of possible moves much smaller
+      ]
+      ifelse check-patch = true[         ; we have a valid patch so choose that one
+        set found? true
+      ] [
+        set heading angle - (5 * n)      ; otherwise check angle in other direction
+        if check-patch = true[
+          set found? true
+        ]
+      ]
+      set n n + 1                        ; update iterator
+    ]
+  ]
+end
+
+
+;;Turtle Context
+;;reports if there are any barriers in a line in front of the turtle
+;;we needed to create this because in-cone works only with the center of patches
+;;which was not accurate for our simulation
+to-report any-barriers-in-line [dist]
+  let step .4  ;defines the step for each check for barriers
+  let n 1  ;iterator variable
+  while [(n * step) < dist][  ;while loop, limited by the distance we are checking for barriers
+    let ph patch-ahead (n * step)   ;at each loop, we check the patch ahead step*n distance
+    let phxcor [pxcor] of ph       ;simple variables to keep the pxcor and pycor of that patch
+    let phycor [pycor] of ph
+    if ph != my-seat[  ;;if the patch is our seat, it is not a barrier
+      if [walk?] of ph = false [ report true]  ;;if it is unwalkable, we report it as a barrier
+
+      if (phxcor > -4) and (phycor > 19)[    ;;keeps the turtle from getting caught in the dish carousel
+        if first mqueue != "leave"[          ;;if it is not leaving
+          report true                        ;;report those blocks as unwalkable
+        ]
+      ]
+      if (phxcor < -4 and phxcor > -12) and (phycor > 19)[
+        ;;also makes the entrance hallway unwalkable, thus the need for an entrance sequence
+        report true
+      ]
+
+      ;we encountered an issue with many turtles getting stuck on tables, to counteract this
+      ;similar to your suggestion with a walkway, we decided to block off areas entirely for
+      ;turtles that were finding a seat in that block, until they got to their row, at which point they enter
+      ;This forced our turtles to move reasonably towards their seats in most cases
+      if first mqueue = "sit"[
+        let mxcor [pxcor] of my-seat
+        let mycor [pycor] of my-seat
+        if patch-in-block-a my-seat[ ;;if their seat is in this block
+          if abs ( xcor - mxcor ) >= 1[ ;if their xcor is not yet near their seat
+            if patch-in-block-a ph[
+              report true  ;then patches in that block are considered unwalkable
+            ]
+          ]
+        ]
+        if patch-in-block-b my-seat[  ;the same as above for block b
+          if abs ( xcor - mxcor ) >= 1[
+            if patch-in-block-b ph[
+              report true
+            ]
+          ]
+        ]
+        if patch-in-block-c my-seat[  ;the same as above for block c
+          if abs ( xcor - mxcor ) >= 1[
+            if patch-in-block-c ph[
+              report true
+            ]
+          ]
+        ]
+      ]
+    ]
+    ;remember to iterate our n variable
+    set n 1 + n
+  ]
+  ;if it passes all checks, then we report that it is walkable
+  report false
+
+
+end
+
+;;Observer/Turtle/Patch context
+;;the following 3 functions are the same essentially
+;;simply reports if the patch is inside the indicated
+;;seating block. The block is a squared defined by bounds
+;; on the x and y coordinates
+
+;;reports if the desired patch is in block A: -57<x-26 and 1<y<11
+to-report patch-in-block-a [dpatch]
+  let dxcor [pxcor] of dpatch
+  let dycor [pycor] of dpatch
+  if (dxcor > -57 and dxcor < 26) and (dycor > 1 and dycor < 11)[
+    report true
+  ]
+  report false
+end
+
+;;reports if the desired patch is in block B: -34<=x<=-14 and 22<=y<=37
+to-report patch-in-block-b [dpatch]
+  let dxcor [pxcor] of dpatch
+  let dycor [pycor] of dpatch
+  if (dxcor >= -34 and dxcor <= -14) and (dycor >= 22 and dycor <= 37)[
+    report true
+  ]
+  report false
+end
+
+
+;;reports if the desired patch is in block C: -3<=x<=25 and -14<=y<=-6
+to-report patch-in-block-c [dpatch]
+  let dxcor [pxcor] of dpatch
+  let dycor [pycor] of dpatch
+  if (dxcor >= -3 and dxcor <= 25) and (dycor >= -14 and dycor <= -6)[
+    report true
+  ]
+  report false
+end
+
+
+;turtle-context
+;reports if the patch ahead of us where we might move to
+;is one we can move to on a walkable line
+to-report check-patch
+  ;set-speed
+  let move-patch patch-ahead speed
+  if [walk?] of move-patch = true [
+    if any-barriers-in-line speed[
+      report false
+    ]
+    report true
+  ]
+  report false
+end

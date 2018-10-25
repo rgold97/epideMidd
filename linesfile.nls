@@ -1,0 +1,465 @@
+; This file handles all of the line checking and movement in the ross simulation
+
+; TURTLE CONTEXT
+; This function checks all turtles that are heading to a line as their destination to see if they
+; have reached the back of the line they are going for.  For snacks just have to check if they 
+; have reached the station. If they have reached a meal line, they are pushed into the queue.
+to check-if-in-line
+  check-if-in-line-snacks              ; for snacks (non-meal)
+  check-if-in-line-salad               ; for all meal types
+  check-if-in-line-station-1
+  check-if-in-line-station-2
+  check-if-in-line-pizza
+  if taco? [ check-if-in-line-taco ]
+end
+
+
+
+; TURTLE CONTEXT
+; Checks if turtles are at the snack station that they are heading to.  If so they denote that
+; they are in that situation by setting sequence to "stay", and set the length of their stay
+; accordingly using sequence-ticks.
+to check-if-in-line-snacks 
+  if [food-type] of patch-here = first stations [              ; got to the snack station
+    set in-line? true                                          
+    let station first stations                                 
+    if station = "drink" [                                     ; depending on type of station, set time
+      set sequence-ticks 5                                     ; drinks are fast
+    ]
+    if station = "bagel" [
+      set sequence-ticks 90                                    ; bagels take a while
+    ]
+    if station = "vfridge" or station = "vsnackfridge" [
+      set sequence-ticks 4                                     ; vegan fridge is fast
+    ]
+    if station = "panini" [ 
+      set sequence-ticks (random 180) + 120                    ; paninis take a long time
+    ]
+    if station = "cereal" [
+      set sequence-ticks 30                                    ; cereal is relatively quick
+    ]
+    if station = "dessert" [
+      set sequence-ticks 6                                     ; dessert is fast
+    ] 
+    set sequence "stay"                                        ; denotes that they should just stay (since they don't move
+  ]                                                            ; through these stations
+end
+
+
+
+; TURTLE CONTEXT
+; Checks if turtles are in the salad line and pushes them into the salad-queue if they are.
+; It also sets the "back" variable to the next open spot in the line
+to check-if-in-line-salad
+  if not empty? stations [                                              
+    if first stations = "salad-bar" [                                    ; only care if they are going to salad
+      if [salad-line] of patch-here = "back" [                           ; this is back of salad line
+        ifelse any? neighbors4 with [valid-line-neighbor "salad"][       
+          set in-line? true                                              ; now they are in line
+          ask one-of neighbors4 with [valid-line-neighbor "salad"] [     ; reset back of line to next spot back
+            set salad-line "back"
+          ]
+          ask patch-here [ set salad-line "yes" ]                        ; reset old "back" to just being in line
+          set salad-queue lput self salad-queue                          ; push agent to salad queue
+        ][
+          set stations remove-item 0 stations                            ; handles lines being full
+          if empty? stations [ set mqueue remove-item 0 mqueue ]
+        ]
+      ]
+    ]
+  ]
+end
+
+
+
+; TURTLE CONTEXT
+; Checks if turtles are in the  line and pushes them into the station-1-queue if they are.
+; It also sets the "back" variable to the next open spot in the line
+; NOTE: This is essentially the same as check-if-in-line-salad, so refer to that
+; function for documentation
+to check-if-in-line-station-1
+  if not empty? stations [
+    if first stations = "station-1" [
+      if [station-1-line] of patch-here = "back" [
+        ifelse any? neighbors4 with [valid-line-neighbor "station-1"][
+          set in-line? true
+          ask one-of neighbors4 with [valid-line-neighbor "station-1"] [
+            set station-1-line "back"
+          ]
+          ask patch-here [ set station-1-line "yes" ]
+          set station-1-queue lput self station-1-queue
+        ][
+          set stations remove-item 0 stations
+          if empty? stations [ set mqueue remove-item 0 mqueue ]
+        ]
+      ]
+    ]
+  ]
+end
+
+
+; TURTLE CONTEXT
+; Checks if turtles are in the  line and pushes them into the station-1-queue if they are.
+; It also sets the "back" variable to the next open spot in the line
+; NOTE: This is essentially the same as check-if-in-line-salad, so refer to that
+; function for documentation
+to check-if-in-line-station-2
+  if not empty? stations [
+    if first stations = "station-2" [
+      if [station-2-line] of patch-here = "back" [
+        ifelse any? neighbors4 with [valid-line-neighbor "station-2"][
+          set in-line? true
+          ask one-of neighbors4 with [valid-line-neighbor "station-2"] [
+            set station-2-line "back"
+          ]
+          ask patch-here [ set station-2-line "yes" ]
+          set station-2-queue lput self station-2-queue
+        ][
+          set stations remove-item 0 stations
+          if empty? stations [ set mqueue remove-item 0 mqueue ]
+        ]
+      ]
+    ]
+  ]
+end
+
+
+
+; TURTLE CONTEXT
+; Checks if turtles are in the  line and pushes them into the pizza-queue if they are.
+; It also sets the "back" variable to the next open spot in the line
+; NOTE: This is essentially the same as check-if-in-line-salad, so refer to that
+; function for documentation
+to check-if-in-line-pizza
+  if not empty? stations [
+    if first stations = "pizza" [
+      if [pizza-line] of patch-here = "back" [
+        ifelse any? neighbors4 with [valid-line-neighbor "pizza"][
+          set in-line? true
+          ask one-of neighbors4 with [valid-line-neighbor "pizza"] [
+            set pizza-line "back"
+          ]
+          ask patch-here [ set pizza-line "yes" ]
+          set pizza-queue lput self pizza-queue
+        ][
+          set stations remove-item 0 stations
+          if empty? stations [ set mqueue remove-item 0 mqueue ]
+        ]
+      ]
+    ]
+  ]
+end
+
+
+
+; TURTLE CONTEXT
+; Checks if turtles are in the  line and pushes them into the pizza-queue if they are.
+; It also sets the "back" variable to the next open spot in the line
+; NOTE: This is essentially the same as check-if-in-line-salad, so refer to that
+; function for documentation
+to check-if-in-line-taco
+  if not empty? stations [
+    if first stations = "taco" [
+      if [taco-line] of patch-here = "back" [
+        ifelse any? neighbors4 with [valid-line-neighbor "taco"][
+          set in-line? true
+          ask one-of neighbors4 with [valid-line-neighbor "taco"] [
+            set taco-line "back"
+          ]
+          ask patch-here [ set taco-line "yes" ]
+          ifelse [pycor] of patch-here = -3 [
+            set taco-queue-1 lput self taco-queue-1
+          ][
+            set taco-queue-2 lput self taco-queue-2
+          ]
+        ][
+          set stations remove-item 0 stations
+          if empty? stations [ set mqueue remove-item 0 mqueue ]
+        ]
+      ]
+    ]
+  ]
+end
+
+
+
+; TURTLE CONTEXT
+; Helper function used for setting back of line and checking if a turtle
+; is in a line.
+to-report valid-line-neighbor [ station-type ]
+  if station-type = "salad" [
+    report (salad-line = "yes") and (not any? ((turtles-on self) with [in-line? = true]))     ; checks if valid line patch and nobody is there
+  ]
+  if station-type = "station-1" [
+    report (station-1-line = "yes") and (not any? ((turtles-on self) with [in-line? = true])) ; checks if valid line patch and nobody is there
+  ]
+  if station-type = "station-2" [
+    report (station-2-line = "yes") and (not any? ((turtles-on self) with [in-line? = true])) ; checks if valid line patch and nobody is there
+  ]
+  if station-type = "pizza" [
+    report (pizza-line = "yes") and (not any? ((turtles-on self) with [in-line? = true])) ; checks if valid line patch and nobody is there
+  ]
+  report (taco-line = "yes") and (not any? ((turtles-on self) with [in-line? = true])) ; checks if valid line patch and nobody is there
+end
+
+
+
+; TURTLE CONTEXT
+; responsible for moving agents thru the salad line.  when an agent leaves the line, they are popped off
+; and enter the move sequence. other agents are then bumped up a patch.  an agent can only
+; leave a line if they are at the front of the line and there is an open space next to the front of the
+; line.
+to move-salad-queue
+  if not empty? salad-queue [                                  ; then need to set up line
+    let front-of-line first salad-queue                        
+    if not any? turtles-on patch 32 -20 [                      ; patch next to line is empty
+      set salad-queue remove-item 0 salad-queue                ; pop the first in line
+      ask front-of-line [                                      ; move first in line to open spot
+        set xcor 32
+        set ycor -20
+        set sequence salad-move-sequence                       ; initiate move sequence
+      ]
+      let next-patch patch 32 -21                              ; bump everybody up one patch
+      let placeholder patch 0 0
+      foreach salad-queue [ x ->                               ; this for loop bumps each turtle up one
+        ask x [
+          set placeholder patch-here
+          move-to next-patch
+          set next-patch placeholder
+        ]
+      ]
+      ask patches with [salad-line = "back"] [ set salad-line "yes" ]   ; now back of the line is different
+      ask next-patch [ set salad-line "back" ]                          ; reset back of the line
+    ]
+  ]
+end
+
+
+
+; TURTLE CONTEXT
+; responsible for moving agents thru the station 1 line.  when an agent leaves the line, they are popped off
+; and enter the move sequence. other agents are then bumped up a patch.  an agent can only
+; leave a line if they are at the front of the line and there is an open space next to the front of the
+; line.
+; NOTE: This function is essentially the same as move-salad-queue(). Reference that function for
+;       documentation.
+to move-station-1-queue
+  if not empty? station-1-queue [
+    let front-of-line first station-1-queue
+    if not any? turtles-on patch 68 -14 [
+      set station-1-queue remove-item 0 station-1-queue
+      ask front-of-line [
+        set xcor 68
+        set ycor -14
+        set sequence station-1-move-sequence
+      ]
+      let next-patch patch 68 -15
+      let placeholder patch 0 0
+      foreach station-1-queue [ x ->
+        ask x [
+          set placeholder patch-here
+          move-to next-patch
+          set next-patch placeholder
+        ]
+      ]
+      ask patches with [station-1-line = "back"] [ set station-1-line "yes" ]
+      ask next-patch [ set station-1-line "back" ]
+    ]
+  ]
+end
+
+
+
+; TURTLE CONTEXT
+; responsible for moving agents thru the station 2 line.  when an agent leaves the line, they are popped off
+; and enter the move sequence. other agents are then bumped up a patch.  an agent can only
+; leave a line if they are at the front of the line and there is an open space next to the front of the
+; line.
+; NOTE: This function is essentially the same as move-salad-queue(). Reference that function for
+;       documentation.
+to move-station-2-queue
+  if not empty? station-2-queue [
+    let front-of-line first station-2-queue
+    if not any? turtles-on patch 88 -2 [
+      set station-2-queue remove-item 0 station-2-queue
+      ask front-of-line [
+        set xcor 88
+        set ycor -2
+        set sequence station-2-move-sequence
+      ]
+      let next-patch patch 89 -2
+      let placeholder patch 0 0
+      foreach station-2-queue [ x ->
+        ask x [
+          set placeholder patch-here
+          move-to next-patch
+          set next-patch placeholder
+        ]
+      ]
+      ask patches with [station-2-line = "back"] [ set station-2-line "yes" ]
+      ask next-patch [ set station-2-line "back" ]
+    ]
+  ]
+end
+
+
+
+; TURTLE CONTEXT
+; responsible for moving agents thru the pizza line.  when an agent leaves the line, they are popped off
+; and enter the move sequence. other agents are then bumped up a patch.  an agent can only
+; leave a line if they are at the front of the line and there is an open space next to the front of the
+; line.
+; NOTE: This function is essentially the same as move-salad-queue(). Reference that function for
+;       documentation.
+to move-pizza-queue
+  if not empty? pizza-queue [                                          
+    let front-of-line first pizza-queue                                
+    if not any? turtles-on patch 46 7 [                                
+      set pizza-queue remove-item 0 pizza-queue                 
+      ask front-of-line [                                              
+        set xcor 46
+        set ycor 7
+        set sequence pizza-move-sequence                               
+      ]
+      let next-patch patch 47 7                                        
+      let placeholder patch 0 0
+      foreach pizza-queue [ x ->                                       
+        ask x [
+          set placeholder patch-here
+          move-to next-patch
+          set next-patch placeholder
+        ]
+      ]
+      ask patches with [pizza-line = "back"] [ set pizza-line "yes" ]  
+      ask next-patch [ set pizza-line "back" ]                         
+    ]
+  ]
+end
+
+
+; TURTLE CONTEXT
+; responsible for moving agents thru the taco line.  when an agent leaves the line, they are popped off
+; and enter the move sequence. other agents are then bumped up a patch.  an agent can only
+; leave a line if they are at the front of the line and there is an open space next to the front of the
+; line.
+; NOTE: This function is essentially the same as move-salad-queue(). Reference that function for
+;       documentation.
+to move-taco-queue-1
+  if not empty? taco-queue-1 [                                          
+    let front-of-line first taco-queue-1                               
+    if not any? turtles-on patch 69 -3 [                                
+      set taco-queue-1 remove-item 0 taco-queue-1                 
+      ask front-of-line [                                              
+        set xcor 69
+        set ycor -3
+        set sequence taco-move-sequence                               
+      ]
+      let next-patch patch 70 -3                                        
+      let placeholder patch 0 0
+      foreach taco-queue-1 [ x ->                                       
+        ask x [
+          set placeholder patch-here
+          move-to next-patch
+          set next-patch placeholder
+        ]
+      ]
+      ask patches with [(taco-line = "back") and (pycor = -3)] [ set taco-line "yes" ]  
+      ask next-patch [ set taco-line "back" ]                         
+    ]
+  ]
+end
+
+
+
+; TURTLE CONTEXT
+; responsible for moving agents thru the taco line.  when an agent leaves the line, they are popped off
+; and enter the move sequence. other agents are then bumped up a patch.  an agent can only
+; leave a line if they are at the front of the line and there is an open space next to the front of the
+; line.
+; NOTE: This function is essentially the same as move-salad-queue(). Reference that function for
+;       documentation.
+to move-taco-queue-2
+  if not empty? taco-queue-2 [                                          
+    let front-of-line first taco-queue-2                               
+    if not any? turtles-on patch 69 -8 [                                
+      set taco-queue-2 remove-item 0 taco-queue-2            
+      ask front-of-line [                                              
+        set xcor 69
+        set ycor -8
+        set sequence taco-move-sequence                               
+      ]
+      let next-patch patch 70 -8                                       
+      let placeholder patch 0 0
+      foreach taco-queue-2 [ x ->                                       
+        ask x [
+          set placeholder patch-here
+          move-to next-patch
+          set next-patch placeholder
+        ]
+      ]
+      ask patches with [(taco-line = "back") and (pycor < -7)] [ set taco-line "yes" ]  
+      ask next-patch [ set taco-line "back" ]                         
+    ]
+  ]
+end
+
+
+
+
+
+; OBSERVER CONTEXT
+; moves a turtle in a "station sequence" once they have reached the front of the line. 
+; this sequence is hard coded to move the turtle through the food stations of the given
+; sequence. turtles spend 8 ticks at each station.
+to move-in-sequence
+  move-in-sequence-meal
+  move-in-sequence-snack
+end
+
+
+; moves a turtle in sequence at the meal stations
+; the meal stations move turtles through a specific sequence after they have gotten
+; to the front of the line
+to move-in-sequence-meal
+  ask turtles with [not empty? sequence] [                           ; sequence stores an array of "moves"
+    ifelse sequence-ticks > 0 [
+      set sequence-ticks sequence-ticks - 1                          ; sequence "cool down"
+    ] [
+      let iter 1
+      while [iter <= 3] [                                            ; move them through the sequence 3 steps
+        let move first sequence                                      ;    at a time so it is spaced out
+        if move = "u" [ move-to patch xcor (ycor + 1) ]              ; move accordingly based on hardcoded array
+        if move = "d" [ move-to patch xcor (ycor - 1) ]
+        if move = "l" [ move-to patch (xcor - 1) ycor ]
+        if move = "r" [ move-to patch (xcor + 1) ycor ]
+        set sequence remove-item 0 sequence                          ; pop move off of sequence array
+        if empty? sequence [                                         ; then they have completed the sequence
+          set in-line? false
+          set stations remove-item 0 stations
+          if empty? stations [ set mqueue remove-item 0 mqueue ]     ; done getting food
+          set iter 4      ; to break loop
+        ]
+        set iter iter + 1
+      ]
+      set sequence-ticks 8                                           ; reset move cooldown after move taken
+
+    ]
+  ]
+end
+
+
+
+; moves a turtle in sequence at the snack stations
+; the snack stations just have turtles wait for 10 ticks and then leave
+to move-in-sequence-snack
+  ask turtles with [in-line? = true and (sequence = "stay")][        ; for the snacks and paninis, they just get there and stay
+    set sequence-ticks sequence-ticks - 1                            ; sequence cooldown
+    if sequence-ticks = 0[                                           ; they have gotten their food
+      set in-line? false
+      set stations remove-item 0 stations                            
+      if empty? stations [ set mqueue remove-item 0 mqueue ]         ; move on to next action
+      set sequence ""
+      set sequence-ticks 8                                           ; reset cooldown
+    ]
+  ]
+end

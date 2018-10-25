@@ -18,16 +18,46 @@ to set-up
   reset-ticks
 
   setup-patches
-  setup-dorms
-  setup-students
+  ;setup-dorms
+  ;setup-students
 end
 
 to setup-patches
-  ; using pink patches to represent buildings for now
-  ask n-of 20 patches [
-    set pcolor pink
-  ]
+  import-pcolors "MiddMap.jpg"
 end
+
+to paint
+  if mouse-down? = true[
+    ask patch mouse-xcor mouse-ycor[set pcolor culler]
+  ]
+  wait 0.1
+end
+
+to paint-row
+  if mouse-down? = true[
+    ask patch mouse-xcor mouse-ycor[set pcolor culler]
+    ask patch mouse-xcor (mouse-ycor - 2) [set pcolor culler]
+    ask patch mouse-xcor (mouse-ycor - 4) [set pcolor culler]
+    ask patch mouse-xcor (mouse-ycor - 6) [set pcolor culler]
+    ask patch mouse-xcor (mouse-ycor - 8) [set pcolor culler]
+  ]
+  wait 0.1
+
+end
+
+to fill
+  if mouse-down? = true[
+    ask patch mouse-xcor mouse-ycor[
+      ask neighbors with [pcolor = [pcolor] of myself][
+        set pcolor culler
+      ]
+      set pcolor culler
+    ]
+  ]
+  wait 0.1
+end
+
+
 
 to setup-dorms
   create-dorms 10 [
@@ -127,8 +157,8 @@ end
 GRAPHICS-WINDOW
 210
 10
-647
-448
+1895
+1696
 -1
 -1
 13.0
@@ -141,10 +171,10 @@ GRAPHICS-WINDOW
 1
 1
 1
--16
-16
--16
-16
+-64
+64
+-64
+64
 0
 0
 1
@@ -184,6 +214,16 @@ NIL
 NIL
 NIL
 1
+
+CHOOSER
+34
+182
+172
+228
+culler
+culler
+68 5
+0
 
 @#$#@#$#@
 ## WHAT IS IT?
