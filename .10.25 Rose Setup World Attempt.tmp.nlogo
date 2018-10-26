@@ -9,9 +9,24 @@
 ; implement tick in functions other than go to make turtles move
 ; "simultaneously"?
 
-breed [students student]
-breed [dorms dorm]
-students-own [target room]
+globals[
+]
+
+turtles-own [
+  major
+  dorm
+  athlete?
+  sick?
+  carrier?
+]
+
+patches-own [
+  class-type
+  academic?
+  dormitory?
+  gym?
+  walk?
+]
 
 
 to set-up
@@ -19,13 +34,29 @@ to set-up
   reset-ticks
 
   setup-patches
+  paint
+  label-patches
   ;setup-dorms
   ;setup-students
 end
 
 to setup-patches
-  import-pcolors "MiddMap.jpg"
+  import-pcolors "MiddMap.jpeg"
+  paint
+
 end
+
+;; patch context
+;;label batches based on the colors of loaded picture
+to label-patches
+  ask patches [
+    ifelse pcolor = white [set walk? true] [set walk? false]
+    ;if pcolor = 5
+  ]
+end
+
+
+
 
 to paint
   if mouse-down? = true[
@@ -58,95 +89,6 @@ to fill
   wait 0.1
 end
 
-
-
-to setup-dorms
-  create-dorms 10 [
-    set shape "house"
-    setxy random-xcor random-ycor
-  ]
-end
-
-to setup-students
-  create-students 1000 [
-    set shape "circle"
-    set size 0.5
-    set color green
-    set room one-of dorms
-    move-to room
-    pick-new-target
-  ]
-  ask one-of students [
-    set color red
-  ]
-end
-
-to go
-  move-students
-  tick
-end
-
-to move-students
-  ; one student doesn't move until the previous student has exited
-  ; the while loop in go-to-target.  therefore, students go to class
-  ; one after another, instead of all at once.  fine for now, but will
-  ; try to fix later.  if no fix, change the tick times to be exactly
-  ; at class times, because students all make it to destination in one
-  ; tick
-
-  ; if it's just before 9:05 on M, W, or F, go to first class
-  if ticks = 650 or ticks = 1594 or ticks = 2538 [
-    ask students [
-      go-to-target
-      pick-new-target
-    ]
-  ]
-  ; if it's just before 10:10 on M, W, F, go to second class
-  if ticks = 671 or ticks = 1615 or ticks = 2559[
-    ask students [
-      go-to-target
-      pick-new-target
-    ]
-  ]
-  ; if it's just before 9:30 on T, Th, go to third class
-  if ticks = 1127 or ticks = 2071 [
-    ask students [
-      go-to-target
-      pick-new-target
-    ]
-  ]
-  ; if it's just before 11:00 on T, Th, go to fourth class
-  if ticks = 1161 or ticks = 2105 [
-    ask students [
-      go-to-target
-      pick-new-target
-    ]
-  ]
-  ; if class has just ended, go home
-  if ticks = 692 or ticks = 1636 or ticks = 2580 or ticks = 1187 or ticks = 2131 [
-    ask students [
-      go-to-room
-    ]
-  ]
-end
-
-to go-to-target
-  while [ distance target > 5 ]
-  [ forward 5 ]
-  move-to target
-end
-
-to pick-new-target
-  set target one-of patches with [pcolor = pink]
-  face target
-end
-
-to go-to-room
-  face room
-  while [ distance room > 5 ]
-  [ forward 5 ]
-  move-to room
-end
 
 ; if tick = class_time - 2
 ; go forward 5 or just go to class if you're close enough
@@ -189,7 +131,7 @@ BUTTON
 69
 NIL
 set-up
-NIL
+T
 1
 T
 OBSERVER
@@ -223,7 +165,7 @@ CHOOSER
 227
 culler
 culler
-68 5
+68 59 7 9.9
 0
 
 @#$#@#$#@
