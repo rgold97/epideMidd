@@ -1,10 +1,5 @@
 ; EpideMidd
 
-; to do:
-; 2 different numbers of students initially infected, 2 different infection rates
-; how long does illness die out take
-; how many students get exposed in each building (dining hall competition, freshman dorm competition, senior hang-outs competition)
-
 extensions [csv]
 
 __includes["12.4 World Setup.nls"] ; contains setup-patches and assign-rooms
