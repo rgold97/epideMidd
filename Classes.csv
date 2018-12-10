@@ -1,0 +1,750 @@
+name,days,time,enroll,room,start,end,rounded.start,rounded.end
+Am. Rep of Crime & Violence,MW,02:50 pm-04:05 pm,27,SDL,14:50,16:05,15,16
+Immigrant America,TR,01:30 pm-02:45 pm,28,AXN,13:30,14:45,13,15
+Am. Lit. & Cult: origins-1830,TR,11:00 am-12:15 pm,31,LIB,11:00,12:15,11,12
+Tourism in American Culture,TR,01:30 pm-02:45 pm,20,MCA,13:30,14:45,13,15
+American Consumer Culture,MW,12:15 pm-01:30 pm,35,LIB,12:15,13:30,12,13
+American Landscape: 1825-1865,T,07:30 pm-10:25 pm,15,MCA,19:30,22:25,19,22
+Science Fiction,TR,01:30 pm-02:45 pm,25,AXT,13:30,14:45,13,15
+American Disability Studies,TR,03:00 pm-04:15 pm,25,AXN,15:00,16:15,15,16
+Cultural History of Computer,TR,03:00 pm-04:15 pm,22,AXN,15:00,16:15,15,16
+Toni Morrison American Culture,M,07:30 pm-10:25 pm,15,AXN,19:30,22:25,19,22
+Theory and Method,MW,02:50 pm-04:05 pm,12,LIB,14:50,16:05,15,16
+Art & Life of Winslow Homer,W,07:30 pm-10:25 pm,14,MCA,19:30,22:25,19,22
+Senior Research Tutorial,T,07:30 pm-10:25 pm,11,LIB,19:30,22:25,19,22
+Beginning Arabic I,MWF,09:05 am-09:55 am,9,MNR,09:05,09:55,9,10
+Beginning Arabic I,MWF,11:15 am-12:05 pm,20,ATD,11:15,12:05,11,12
+Intermediate Arabic I,MW,10:10 am-11:00 am,6,MNR,10:10,11:00,10,11
+Intermediate Arabic I,MW,11:15 am-12:05 pm,13,MNR,11:15,12:05,11,12
+Advanced Arabic I,M,08:00 am-08:50 am,15,MNR,08:00,08:50,8,9
+Gndr&Migr: Modrn Arb Lit & Cin,W,01:30 pm-04:15 pm,14,WNS,13:30,16:15,13,16
+Arabic Diglossia,MW,08:40 am-09:55 am,8,MNR,08:40,09:55,9,10
+The Creative Process,TR,01:30 pm-02:45 pm,19,MCA,13:30,14:45,13,15
+Ecology and Evolution,MWF,11:15 am-12:05 pm,78,MBH,11:15,12:05,11,12
+Ecology and Evolution Lab,W,01:30 pm-04:15 pm,12,MBH,13:30,16:15,13,16
+Ecology and Evolution Lab,M,01:30 pm-04:15 pm,13,MBH,13:30,16:15,13,16
+Ecology and Evolution Lab,T,01:30 pm-04:15 pm,13,MBH,13:30,16:15,13,16
+Ecology and Evolution Lab,W,01:30 pm-04:15 pm,13,MBH,13:30,16:15,13,16
+Ecology and Evolution Lab,R,01:30 pm-04:15 pm,14,MBH,13:30,16:15,13,16
+Ecology and Evolution Lab,R,01:30 pm-04:15 pm,13,MBH,13:30,16:15,13,16
+Cell Biology and Genetics,MWF,09:05 am-09:55 am,65,MBH,09:05,09:55,9,10
+Cell Biology and Genetics Lab,M,01:30 pm-04:15 pm,10,MBH,13:30,16:15,13,16
+Cell Biology and Genetics Lab,M,01:30 pm-04:15 pm,11,MBH,13:30,16:15,13,16
+Cell Biology and Genetics Lab,T,01:30 pm-04:15 pm,10,MBH,13:30,16:15,13,16
+Cell Biology and Genetics Lab,T,01:30 pm-04:15 pm,12,MBH,13:30,16:15,13,16
+Cell Biology and Genetics Lab,W,01:30 pm-04:15 pm,12,MBH,13:30,16:15,13,16
+Cell Biology and Genetics Lab,R,01:30 pm-04:15 pm,10,MBH,13:30,16:15,13,16
+Invertebrate Biology,TR,11:00 am-12:15 pm,14,MBH,11:00,12:15,11,12
+Invertebrate Biology Lab,R,01:30 pm-04:15 pm,14,MBH,13:30,16:15,13,16
+Biology of Plants,MWF,11:15 am-12:05 pm,21,MBH,11:15,12:05,11,12
+Biology of Plants Lab,M,01:30 pm-04:15 pm,11,MBH,13:30,16:15,13,16
+Biology of Plants Lab,T,01:30 pm-04:15 pm,10,MBH,13:30,16:15,13,16
+Biostatistics,TR,11:00 am-12:15 pm,20,MBH,11:00,12:15,11,12
+Biostatistics Lab,M,01:30 pm-04:15 pm,20,MBH,13:30,16:15,13,16
+Animal Behavior,MWF,09:05 am-09:55 am,19,MBH,09:05,09:55,9,10
+Animal Behavior Lab,M,01:30 pm-04:15 pm,14,MBH,13:30,16:15,13,16
+Animal Behavior Lab,T,01:30 pm-04:15 pm,5,MBH,13:30,16:15,13,16
+Global Change Biology,TR,08:00 am-09:15 am,27,AXN,08:00,09:15,8,9
+Vertebrate Natural History,MWF,08:00 am-08:50 am,16,MBH,08:00,08:50,8,9
+Vertebrate Natural History Lab,W,01:30 pm-04:15 pm,12,MBH,13:30,16:15,13,16
+Vertebrate Natural History Lab,R,01:30 pm-04:15 pm,4,MBH,13:30,16:15,13,16
+Aquatic Ecology,MWF,10:10 am-11:00 am,17,MBH,10:10,11:00,10,11
+Aquatic Ecology,MWF,10:10 am-11:00 am,6,MBH,10:10,11:00,10,11
+Aquatic Ecology Lab,M,01:30 pm-04:15 pm,11,MBH,13:30,16:15,13,16
+Aquatic Ecology Lab,T,01:30 pm-04:15 pm,12,MBH,13:30,16:15,13,16
+Developmental Biology,MWF,11:15 am-12:05 pm,18,MBH,11:15,12:05,11,12
+Developmental Biology Lab,R,01:30 pm-04:15 pm,18,MBH,13:30,16:15,13,16
+Microbiology,TR,08:00 am-09:15 am,11,MBH,08:00,09:15,8,9
+Microbiology,TR,08:00 am-09:15 am,2,MBH,08:00,09:15,8,9
+Microbiology Pre-lab,T,01:55 pm-02:45 pm,13,MBH,13:55,14:45,14,15
+Microbiology Lab,W,01:30 pm-04:15 pm,13,MBH,13:30,16:15,13,16
+Molecular Genetics,TR,09:30 am-10:45 am,19,MBH,09:30,10:45,9,11
+Molecular Genetics lab,T,01:30 pm-04:15 pm,8,MBH,13:30,16:15,13,16
+Molecular Genetics lab,R,01:30 pm-04:15 pm,11,MBH,13:30,16:15,13,16
+Independent Study,M,12:30 pm-01:20 pm,1,MBH,12:30,13:20,12,13
+Independent Study,R,12:30 pm-01:20 pm,1,ATD,12:30,13:20,12,13
+General Chemistry I,MWF,09:05 am-09:55 am,35,MBH,09:05,09:55,9,10
+General Chemistry I,MWF,10:10 am-11:00 am,35,MBH,10:10,11:00,10,11
+General Chemistry I Lab,M,01:30 pm-04:15 pm,19,MBH,13:30,16:15,13,16
+General Chemistry I Lab,T,01:30 pm-04:15 pm,17,MBH,13:30,16:15,13,16
+General Chemistry I Lab,W,01:30 pm-04:15 pm,17,MBH,13:30,16:15,13,16
+General Chemistry I Lab,R,01:30 pm-04:15 pm,17,MBH,13:30,16:15,13,16
+General Chemistry II,TR,09:30 am-10:45 am,43,MBH,09:30,10:45,9,11
+General Chemistry II Lab,M,01:00 pm-04:15 pm,18,MBH,13:00,16:15,13,16
+General Chemistry II Lab,T,01:00 pm-04:15 pm,18,MBH,13:00,16:15,13,16
+Advanced General Chemistry,MW,08:40 am-09:55 am,23,MBH,08:40,09:55,9,10
+Advanced General Chemistry Lab,W,01:00 pm-04:15 pm,15,MBH,13:00,16:15,13,16
+Advanced General Chemistry Lab,R,01:00 pm-04:15 pm,15,MBH,13:00,16:15,13,16
+Organic I: Struct & Reactivity,MWF,09:05 am-09:55 am,14,MBH,09:05,09:55,9,10
+Organic I: Struct & Reactivity,MWF,10:10 am-11:00 am,24,MBH,10:10,11:00,10,11
+Discussion,M,12:30 pm-01:20 pm,20,MBH,12:30,13:20,12,13
+Discussion,M,01:45 pm-02:35 pm,18,MBH,13:45,14:35,14,15
+Organic I Lab,M,07:00 pm-10:00 pm,9,MBH,19:00,22:00,19,22
+Organic I Lab,T,01:30 pm-04:15 pm,16,MBH,13:30,16:15,13,16
+Organic I Lab,W,12:30 pm-03:15 pm,13,MBH,12:30,15:15,12,15
+Organic II: Synthesis & Spect,TR,09:30 am-10:45 am,7,MBH,09:30,10:45,9,11
+Discussion,M,02:50 pm-03:40 pm,7,MBH,14:50,15:40,15,16
+Organic II Lab,R,01:30 pm-04:15 pm,7,MBH,13:30,16:15,13,16
+Instrumental Analysis,MWF,11:15 am-12:05 pm,14,MBH,11:15,12:05,11,12
+Instrumental Analysis Lab,TR,01:30 pm-04:15 pm,14,MBH,13:30,16:15,13,16
+Biochemistry of Macromolecules,MWF,10:10 am-11:00 am,36,MBH,10:10,11:00,10,11
+Discussion,M,12:30 pm-01:20 pm,15,FIC,12:30,13:20,12,13
+Discussion,M,01:45 pm-02:35 pm,13,FIC,13:45,14:35,14,15
+Discussion,M,02:50 pm-03:40 pm,8,FIC,14:50,15:40,15,16
+Quantum Chemistry/Spectroscopy,MW,02:50 pm-04:05 pm,7,MBH,14:50,16:05,15,16
+Discussion,W,01:45 pm-02:35 pm,7,MBH,13:45,14:35,14,15
+Seminar In Chemical Research,TR,08:00 am-09:15 am,10,MBH,08:00,09:15,8,9
+Biochemistry Of Metabolism,MW,08:40 am-09:55 am,12,MBH,08:40,09:55,9,10
+Discussion,F,09:05 am-09:55 am,12,MBH,09:05,09:55,9,10
+Advanced Inorganic Chemistry,MW,08:40 am-09:55 am,3,MBH,08:40,09:55,9,10
+Beginning Chinese,MWF,09:05 am-09:55 am,25,CHT,09:05,09:55,9,10
+Beginning Chinese,MWF,10:10 am-11:00 am,19,CHT,10:10,11:00,10,11
+Drill 1,R,11:00 am-11:50 am,11,MNR,11:00,11:50,11,12
+Drill 1,R,01:55 pm-02:45 pm,12,SDL,13:55,14:45,14,15
+Drill 1,R,03:00 pm-03:50 pm,10,SDL,15:00,15:50,15,16
+Drill1,F,08:00 am-08:50 am,11,SDL,08:00,08:50,8,9
+Intermediate Chinese,MWF,09:05 am-09:55 am,18,MNR,09:05,09:55,9,10
+Intermediate Chinese,MWF,10:10 am-11:00 am,17,MNR,10:10,11:00,10,11
+Drill,R,11:00 am-11:50 am,9,MNR,11:00,11:50,11,12
+Drill,R,01:55 pm-02:45 pm,6,MNR,13:55,14:45,14,15
+Drill,R,03:00 pm-03:50 pm,9,MNR,15:00,15:50,15,16
+Drill,F,08:00 am-08:50 am,11,MNR,08:00,08:50,8,9
+Modern Chinese Literature,MW,02:50 pm-04:05 pm,17,RCD,14:50,16:05,15,16
+Advanced Chinese I,MF,10:10 am-11:00 am,9,OCH,10:10,11:00,10,11
+Advanced Chinese I,MF,11:15 am-12:05 pm,11,OCH,11:15,12:05,11,12
+Traditional Chinese Novels,MW,07:30 pm-08:45 pm,8,MNR,19:30,20:45,19,21
+Traditional Chinese Novels,MW,07:30 pm-08:45 pm,4,MNR,19:30,20:45,19,21
+Adv Chns Read/Wrtng/Convrstn,MWF,11:15 am-12:05 pm,7,AXT,11:15,12:05,11,12
+Classical Chinese I,MWF,11:15 am-12:05 pm,10,MNR,11:15,12:05,11,12
+Chns Social Issues Adv Rdngs,TR,01:30 pm-02:45 pm,10,LAF,13:30,14:45,13,15
+History of Rome,MW,01:45 pm-02:35 pm,42,AXT,13:45,14:35,14,15
+Discussion,R,01:30 pm-02:20 pm,14,AXT,13:30,14:20,13,14
+Discussion,F,11:15 am-12:05 pm,14,AXT,11:15,12:05,11,12
+Discussion,F,01:30 pm-02:20 pm,14,AXT,13:30,14:20,13,14
+Greek and Roman Epic Poetry,MW,02:50 pm-04:05 pm,24,AXT,14:50,16:05,15,16
+Greek and Roman Epic Poetry,MW,02:50 pm-04:05 pm,9,AXT,14:50,16:05,15,16
+Discussion,F,09:05 am-09:55 am,10,AXT,09:05,09:55,9,10
+Discussion,F,10:10 am-11:00 am,15,AXT,10:10,11:00,10,11
+Discussion,F,11:15 am-12:05 pm,8,AXT,11:15,12:05,11,12
+The Ancient Roman City,TR,11:00 am-12:15 pm,20,MNR,11:00,12:15,11,12
+Roman Philosophy,TR,09:30 am-10:45 am,39,AXN,09:30,10:45,9,11
+History of Class Lit,TR,01:30 pm-02:45 pm,5,AXT,13:30,14:45,13,15
+Hist of Class Lit,TR,01:30 pm-02:45 pm,1,AXT,13:30,14:45,13,15
+Introduction to Computing,TR,08:00 am-09:15 am,41,MBH,08:00,09:15,8,9
+Introduction to Computing,TR,09:30 am-10:45 am,37,MBH,09:30,10:45,9,11
+Introduction to Computing Lab,F,10:10 am-11:00 am,28,MBH,10:10,11:00,10,11
+Introduction to Computing Lab,F,11:15 am-12:05 pm,23,MBH,11:15,12:05,11,12
+Introduction to Computing Lab,F,01:45 pm-02:35 pm,27,MBH,13:45,14:35,14,15
+Computing for the Sciences,MWF,08:00 am-08:50 am,21,MBH,08:00,08:50,8,9
+Computing for the Sciences,MWF,09:05 am-09:55 am,28,MBH,09:05,09:55,9,10
+Computing for the Sciences Lab,R,11:00 am-11:50 am,22,MBH,11:00,11:50,11,12
+Computing for the Sciences Lab,R,01:30 pm-02:20 pm,27,MBH,13:30,14:20,13,14
+Math Foundations of Computing,MWF,10:10 am-11:00 am,24,MBH,10:10,11:00,10,11
+Math Foundations of Computing,MWF,11:15 am-12:05 pm,29,MBH,11:15,12:05,11,12
+Data Structures,MWF,08:00 am-08:50 am,30,MBH,08:00,08:50,8,9
+Data Structures,MWF,09:05 am-09:55 am,43,MBH,09:05,09:55,9,10
+Data Structures Lab,W,02:50 pm-03:40 pm,28,MBH,14:50,15:40,15,16
+Data Structures Lab,R,11:00 am-11:50 am,21,MBH,11:00,11:50,11,12
+Data Structures Lab,R,01:30 pm-02:20 pm,24,MBH,13:30,14:20,13,14
+Computer Architecture,MWF,09:05 am-09:55 am,13,MBH,09:05,09:55,9,10
+Computer Architecture,MWF,10:10 am-11:00 am,18,MBH,10:10,11:00,10,11
+Theory of Computation,TR,11:00 am-12:15 pm,37,MBH,11:00,12:15,11,12
+Algorithms and Complexity,MW,12:15 pm-01:30 pm,20,MBH,12:15,13:30,12,13
+Algorithms and Complexity,MW,02:50 pm-04:05 pm,14,MBH,14:50,16:05,15,16
+Systems Programming,TR,09:30 am-10:45 am,28,MBH,09:30,10:45,9,11
+Machine Learning,MWF,11:15 am-12:05 pm,29,MBH,11:15,12:05,11,12
+Image Processing,TR,03:00 pm-04:15 pm,21,MBH,15:00,16:15,15,16
+Information Visualization,MWF,01:45 pm-02:35 pm,25,MBH,13:45,14:35,14,15
+Senior Seminar,MW,02:50 pm-04:05 pm,14,MBH,14:50,16:05,15,16
+Senior Seminar,TR,11:00 am-12:15 pm,16,MBH,11:00,12:15,11,12
+"Writing: Poetry, Fiction, NonF",T,07:30 pm-10:25 pm,15,AXN,19:30,22:25,19,22
+"Writing: Poetry, Fiction, NonF",MW,02:50 pm-04:05 pm,12,AXT,14:50,16:05,15,16
+"Writing: Poetry, Fiction, NonF",TR,11:00 am-12:15 pm,16,AXN,11:00,12:15,11,12
+Environmental Lit Workshop,MW,12:15 pm-01:30 pm,18,AXN,12:15,13:30,12,13
+Structure of Poetry,TR,03:00 pm-04:15 pm,13,LAF,15:00,16:15,15,16
+Fiction in Practice & Theory,MW,12:15 pm-01:30 pm,8,AXT,12:15,13:30,12,13
+Advanced Poetry Workshop,TR,03:00 pm-04:15 pm,10,OCH,15:00,16:15,15,16
+Introduction to Dance,MW,10:10 am-11:00 am,26,MCA,10:10,11:00,10,11
+Improvisational Practices,TR,01:30 pm-02:45 pm,12,MCA,13:30,14:45,13,15
+Modern Dance History in U.S.,MW,02:50 pm-04:05 pm,12,MCA,14:50,16:05,15,16
+Production Workshop,F,01:30 pm-04:30 pm,4,MCA,13:30,16:30,13,16
+Anatomy and Kinesiology,TR,11:00 am-12:15 pm,9,MCA,11:00,12:15,11,12
+Dance Company,MTWR,04:30 pm-06:30 pm,12,MCA,16:30,18:30,16,18
+Intermediate/Advanced DanceII,TR,03:00 pm-04:15 pm,5,MCA,15:00,16:15,15,16
+Intro Macroeconomics,TR,09:30 am-10:45 am,36,AXT,09:30,10:45,9,11
+Intro Macroeconomics,TR,03:00 pm-04:15 pm,31,WNS,15:00,16:15,15,16
+Intro Macroeconomics,TR,08:00 am-09:15 am,37,AXT,08:00,09:15,8,9
+Intro Macroeconomics,MW,02:50 pm-04:05 pm,32,WNS,14:50,16:05,15,16
+Intro Microeconomics,MWF,10:10 am-11:00 am,41,WNS,10:10,11:00,10,11
+Intro Microeconomics,TR,03:00 pm-04:15 pm,37,WNS,15:00,16:15,15,16
+Intro Microeconomics,MWF,11:15 am-12:05 pm,39,WNS,11:15,12:05,11,12
+Health Economics & Policy,TR,09:30 am-10:45 am,19,RAJ,09:30,10:45,9,11
+Health Economics & Policy,TR,11:00 am-12:15 pm,16,RAJ,11:00,12:15,11,12
+Economic Statistics,MWF,09:05 am-09:55 am,38,GFD,09:05,09:55,9,10
+Economic Statistics,MWF,10:10 am-11:00 am,40,GFD,10:10,11:00,10,11
+Economic Statistics,TR,01:30 pm-02:45 pm,33,WNS,13:30,14:45,13,15
+Econ Stat Lab-ECON 0210 C,W,02:50 pm-03:40 pm,14,LIB,14:50,15:40,15,16
+Lab-ECON 0210 C,W,01:45 pm-02:35 pm,19,LIB,13:45,14:35,14,15
+Econ Stat Lab-ECON 0210 A or B,T,01:30 pm-02:20 pm,25,LIB,13:30,14:20,13,14
+Econ Stat Lab-ECON 0210 A or B,R,11:00 am-11:50 am,20,LIB,11:00,11:50,11,12
+Econ Stat Lab-ECON 0210 A or B,T,11:00 am-11:50 am,33,LIB,11:00,11:50,11,12
+Regression Analysis,TR,11:00 am-12:15 pm,33,GFD,11:00,12:15,11,12
+Regression Analysis,TR,09:30 am-10:45 am,21,WNS,09:30,10:45,9,11
+Regression Lab-ECON 0211 B,W,09:05 am-09:55 am,7,LIB,09:05,09:55,9,10
+Regression Lab-ECON 0211 B,W,10:10 am-11:00 am,14,LIB,10:10,11:00,10,11
+Regression Lab-ECON 0211 A,F,11:15 am-12:05 pm,15,LIB,11:15,12:05,11,12
+Regression Lab-ECON 0211 A,F,10:10 am-11:00 am,18,LIB,10:10,11:00,10,11
+Empirical Economic Research,MW,12:15 pm-01:30 pm,24,LIB,12:15,13:30,12,13
+Econ of Agricultural Transtion,MW,12:30 pm-01:20 pm,17,WNS,12:30,13:20,12,13
+Econ of Agricultural Trans-LAB,R,01:30 pm-04:15 pm,17,MBH,13:30,16:15,13,16
+Econ Hist/Hist of Econ Thought,TR,03:00 pm-04:15 pm,31,WNS,15:00,16:15,15,16
+The Chinese Economy,T,07:30 pm-10:25 pm,35,AXN,19:30,22:25,19,22
+Economics of Africa,TR,01:30 pm-02:45 pm,10,AXN,13:30,14:45,13,15
+Int'l Econ: Theory & Policy,TR,09:30 am-10:45 am,24,AXN,09:30,10:45,9,11
+Discussion,M,01:45 pm-02:35 pm,17,MNR,13:45,14:35,14,15
+Discussion,M,12:30 pm-01:20 pm,7,MNR,12:30,13:20,12,13
+Macro Theory,MW,12:15 pm-01:30 pm,29,WNS,12:15,13:30,12,13
+Macro Theory,TR,01:30 pm-02:45 pm,19,WNS,13:30,14:45,13,15
+Macro Theory,TR,09:30 am-10:45 am,28,AXN,09:30,10:45,9,11
+Micro Theory,TR,09:30 am-10:45 am,29,AXN,09:30,10:45,9,11
+Micro Theory,MW,12:15 pm-01:30 pm,31,AXN,12:15,13:30,12,13
+Environmental Economics,MW,12:15 pm-01:30 pm,21,WNS,12:15,13:30,12,13
+Game Theory,TR,09:30 am-10:45 am,35,WNS,09:30,10:45,9,11
+Experimental Economics,TR,01:30 pm-02:45 pm,13,WNS,13:30,14:45,13,15
+Inequality and Justice,MW,02:50 pm-04:05 pm,16,WNS,14:50,16:05,15,16
+Economics of Discrimination,TR,01:30 pm-02:45 pm,18,CHT,13:30,14:45,13,15
+Applied Econometrics,TR,11:00 am-12:15 pm,12,WNS,11:00,12:15,11,12
+Macroeconomics of Development,TR,03:00 pm-04:15 pm,15,WNS,15:00,16:15,15,16
+Economics of European Union,TR,08:00 am-09:15 am,17,AXN,08:00,09:15,8,9
+International Finance,TR,11:00 am-12:15 pm,18,WNS,11:00,12:15,11,12
+Environment and Development,MW,02:50 pm-04:05 pm,16,WNS,14:50,16:05,15,16
+Research in Behav. & Exp. Econ,MW,12:15 pm-01:30 pm,12,WNS,12:15,13:30,12,13
+Education In the USA,TR,09:30 am-10:45 am,45,AXN,09:30,10:45,9,11
+Education In the USA,TR,09:30 am-10:45 am,24,AXN,09:30,10:45,9,11
+Discussion - A,F,09:05 am-09:55 am,25,MNR,09:05,09:55,9,10
+Discussion - A,F,10:10 am-11:00 am,19,MNR,10:10,11:00,10,11
+Discussion - B,F,09:05 am-09:55 am,12,HPB,09:05,09:55,9,10
+Discussion - B,F,10:10 am-11:00 am,13,HPB,10:10,11:00,10,11
+Culturally Responsive Pedagogy,TR,01:30 pm-02:45 pm,26,MBH,13:30,14:45,13,15
+Elem. Literacy & Soc. Studies,MW,08:40 am-09:55 am,6,AXT,08:40,09:55,9,10
+Student Teaching Seminar,W,03:30 pm-06:00 pm,6,AXT,15:30,18:00,15,18
+Senior Seminar in Education,T,01:30 pm-04:15 pm,4,AXT,13:30,16:15,13,16
+Reading Literature,MWF,11:15 am-12:05 pm,13,AXT,11:15,12:05,11,12
+Reading Literature,MW,12:15 pm-01:30 pm,16,OCH,12:15,13:30,12,13
+Adventures in Literary Romance,MWF,01:45 pm-02:35 pm,27,AXN,13:45,14:35,14,15
+The Court and the Wilderness,MW,08:40 am-09:55 am,23,AXN,08:40,09:55,9,10
+Foundations of English Lit.,TR,11:00 am-12:15 pm,11,AXT,11:00,12:15,11,12
+Intro:Contemporary Lit. Theory,MWF,09:05 am-09:55 am,19,AXN,09:05,09:55,9,10
+Human Rights &World Literature,TR,11:00 am-12:15 pm,29,AXN,11:00,12:15,11,12
+South Asian African Carib Lit,MW,12:15 pm-01:30 pm,7,JHN,12:15,13:30,12,13
+"Shakespeare, Nature Poet",TR,11:00 am-12:15 pm,23,MNR,11:00,12:15,11,12
+Poetry and Spiritual Tradition,TR,01:30 pm-02:45 pm,19,OCH,13:30,14:45,13,15
+Truth and Other Fictions,TR,01:30 pm-02:45 pm,20,FIC,13:30,14:45,13,15
+Faulkner and His Influence,TR,03:00 pm-04:15 pm,11,CHT,15:00,16:15,15,16
+Senior Thesis: Workshop,M,07:30 pm-09:30 pm,9,AXN,19:30,21:30,19,21
+Natural Science & Environment,MWF,09:05 am-09:55 am,43,HLD,09:05,09:55,9,10
+Natural Science & Env Lab,T,01:30 pm-04:15 pm,11,MBH,13:30,16:15,13,16
+Natural Science & Env Lab,W,01:30 pm-04:15 pm,8,MBH,13:30,16:15,13,16
+Natural Science & Env Lab,R,01:30 pm-04:15 pm,12,MBH,13:30,16:15,13,16
+Natural Science & Env Lab,F,11:45 am-02:30 pm,12,MBH,11:45,14:30,12,14
+Anthropocene Environ. Justice,TR,09:30 am-10:45 am,23,HLD,09:30,10:45,9,11
+Conservation & Env Policy,MW,11:15 am-12:05 pm,45,HLD,11:15,12:05,11,12
+Discussion,F,10:10 am-11:00 am,15,HLD,10:10,11:00,10,11
+Discussion,F,11:15 am-12:05 pm,17,HLD,11:15,12:05,11,12
+Discussion,F,12:30 pm-01:20 pm,13,HLD,12:30,13:20,12,13
+Contested Grounds,MW,12:15 pm-01:30 pm,42,HLD,12:15,13:30,12,13
+Conserving Endangered Species,TR,09:30 am-10:45 am,16,LAF,09:30,10:45,9,11
+"The Perennial Turn, Ag/Culture",T,01:30 pm-04:15 pm,18,MNR,13:30,16:15,13,16
+Community Engaged Practicum,TR,11:00 am-12:15 pm,13,HLD,11:00,12:15,11,12
+Aesthetics of the Moving Image,MW,02:50 pm-04:05 pm,44,AXN,14:50,16:05,15,16
+Film History,MW,12:15 pm-01:30 pm,44,AXN,12:15,13:30,12,13
+Sight and Sound I,TR,01:30 pm-04:15 pm,12,AXN,13:30,16:15,13,16
+Writing for the Screen I,TR,09:30 am-10:45 am,14,AXT,09:30,10:45,9,11
+Writing for the Screen I,TR,11:00 am-12:15 pm,13,AXT,11:00,12:15,11,12
+"Hollywood Renaissance, 1967-76",MW,02:50 pm-04:05 pm,8,AXN,14:50,16:05,15,16
+Introduction to Podcasting,TR,11:00 am-12:15 pm,15,AXN,11:00,12:15,11,12
+Sight and Sound II,T,07:30 pm-10:25 pm,11,AXN,19:30,22:25,19,22
+Theories of Spectatorship,W,07:30 pm-10:25 pm,16,AXN,19:30,22:25,19,22
+Beginning French Part One,MWF,08:00 am-08:50 am,12,CHT,08:00,08:50,8,9
+Beginning French Part One,MWF,11:15 am-12:05 pm,15,CHT,11:15,12:05,11,12
+Intermediate French II,MWF,09:05 am-09:55 am,19,CHT,09:05,09:55,9,10
+Intermediate French II,MWF,10:10 am-11:00 am,17,CHT,10:10,11:00,10,11
+Toward Liberated Expression,MWF,09:05 am-09:55 am,17,CHT,09:05,09:55,9,10
+Toward Liberated Expression,MWF,10:10 am-11:00 am,17,CHT,10:10,11:00,10,11
+Toward Liberated Expression,MWF,12:30 pm-01:20 pm,18,CHT,12:30,13:20,12,13
+Self&Society Writing in French,MWF,10:10 am-11:00 am,16,CHT,10:10,11:00,10,11
+Self&Society Writing in French,MWF,11:15 am-12:05 pm,13,CHT,11:15,12:05,11,12
+Criminal Minds in Lit in FR,MW,08:40 am-09:55 am,15,CHT,08:40,09:55,9,10
+Criminal Minds in Lit in FR,MW,08:40 am-09:55 am,4,CHT,08:40,09:55,9,10
+Travelers and Migrants,MW,12:15 pm-01:30 pm,11,CHT,12:15,13:30,12,13
+Travelers and Migrants,MW,12:15 pm-01:30 pm,5,CHT,12:15,13:30,12,13
+Introduction to Contemp France,MW,02:50 pm-04:05 pm,7,CHT,14:50,16:05,15,16
+Body Politics & French Fiction,MW,02:50 pm-04:05 pm,14,CHT,14:50,16:05,15,16
+French Public Education,MW,12:15 pm-01:30 pm,12,CHT,12:15,13:30,12,13
+Writing Gender & Sexuality,TR,01:30 pm-02:45 pm,15,ADK,13:30,14:45,13,15
+Gender and the Body,TR,03:00 pm-04:15 pm,32,GFD,15:00,16:15,15,16
+Feminist Foundations,MW,12:15 pm-01:30 pm,33,AXN,12:15,13:30,12,13
+White People,TR,09:30 am-10:45 am,24,ADK,09:30,10:45,9,11
+Politics of Reproduction,TR,11:00 am-12:15 pm,33,CHT,11:00,12:15,11,12
+Feminist Engaged Research,T,01:30 pm-04:15 pm,10,CHT,13:30,16:15,13,16
+Place And Society,MWF,08:00 am-08:50 am,26,MBH,08:00,08:50,8,9
+Place And Society Lab,M,12:15 pm-01:30 pm,12,MBH,12:15,13:30,12,13
+Place And Society Lab,M,02:50 pm-04:05 pm,14,MBH,14:50,16:05,15,16
+Human Geography with GIS,TR,11:00 am-12:15 pm,35,MBH,11:00,12:15,11,12
+Human Geography with GIS Lab,W,01:30 pm-04:15 pm,19,MBH,13:30,16:15,13,16
+Human Geography with GIS Lab,W,01:30 pm-04:15 pm,16,MBH,13:30,16:15,13,16
+Land and Livelihoods,TR,03:00 pm-04:15 pm,33,MBH,15:00,16:15,15,16
+Human Geography of Hazards,TR,08:00 am-09:15 am,26,MBH,08:00,09:15,8,9
+Geopolitics of the Middle East,TR,09:30 am-10:45 am,25,MBH,09:30,10:45,9,11
+GIS: Environmental Sci & Mgmt,TR,09:30 am-10:45 am,11,MBH,09:30,10:45,9,11
+GIS: Environ Sci & Mgmt Lab,R,01:30 pm-04:15 pm,11,MBH,13:30,16:15,13,16
+Seminar: Population Geography,W,01:30 pm-04:15 pm,9,MBH,13:30,16:15,13,16
+Elements of Oceanography,MWF,10:10 am-11:00 am,29,MBH,10:10,11:00,10,11
+Elements of Oceanography Lab,M,12:30 pm-04:15 pm,10,MBH,12:30,16:15,12,16
+Elements of Oceanography Lab,T,08:30 am-12:15 pm,9,MBH,08:30,12:15,8,12
+Elements of Oceanography Lab,T,12:30 pm-04:15 pm,10,MBH,12:30,16:15,12,16
+The Dynamic Earth,MWF,09:05 am-09:55 am,27,MBH,09:05,09:55,9,10
+The Dynamic Earth Lab,W,01:30 pm-04:15 pm,11,MBH,13:30,16:15,13,16
+The Dynamic Earth Lab,R,01:30 pm-04:15 pm,16,MBH,13:30,16:15,13,16
+Bedrock Geology of Vermont,TR,11:00 am-12:15 pm,17,MBH,11:00,12:15,11,12
+Bedrock Geology of Vermont Lab,R,12:30 pm-04:15 pm,17,MBH,12:30,16:15,12,16
+Remote Sensing in Geoscience,TR,09:30 am-10:45 am,16,MBH,09:30,10:45,9,11
+Remote Sensing Geoscience Lab,R,01:30 pm-04:15 pm,16,MBH,13:30,16:15,13,16
+Geomorphology,MWF,11:15 am-12:05 pm,14,MBH,11:15,12:05,11,12
+Geomorphology Lab,M,12:30 pm-04:15 pm,14,MBH,12:30,16:15,12,16
+Marine Geology,MWF,10:10 am-11:00 am,3,MBH,10:10,11:00,10,11
+Marine Geology Lab,W,12:30 pm-04:15 pm,3,MBH,12:30,16:15,12,16
+Senior Thesis Research Seminar,TR,08:00 am-09:15 am,9,ATA,08:00,09:15,8,9
+Beginning German,MWF,10:10 am-11:00 am,13,FIC,10:10,11:00,10,11
+Beginning German,MWF,11:15 am-12:05 pm,11,FIC,11:15,12:05,11,12
+Intermediate German,MF,09:05 am-09:55 am,5,FIC,09:05,09:55,9,10
+Intermediate German,MF,11:15 am-12:05 pm,10,MBH,11:15,12:05,11,12
+Advanced Writing Workshop,TR,11:00 am-12:15 pm,6,FIC,11:00,12:15,11,12
+Advanced Writing Workshop,TR,11:00 am-12:15 pm,8,FIC,11:00,12:15,11,12
+German & Its Cultural Contexts,TR,03:00 pm-04:15 pm,12,FIC,15:00,16:15,15,16
+German & Its Cultural Contexts,TR,03:00 pm-04:15 pm,2,FIC,15:00,16:15,15,16
+Austrian Horror Film,MW,12:15 pm-01:30 pm,6,FIC,12:15,13:30,12,13
+Intermediate Greek: Prose,TR,03:00 pm-04:15 pm,4,AXT,15:00,16:15,15,16
+Introduction Modern Hebrew I,MWF,10:10 am-11:00 am,5,LIB,10:10,11:00,10,11
+Rite/Ritual:Israel & Neighbors,MW,12:15 pm-01:30 pm,4,MBH,12:15,13:30,12,13
+Modern Hebrew Literature,TR,03:00 pm-04:15 pm,2,RCD,15:00,16:15,15,16
+Advanced Intermediate Hebrew,MW,11:15 am-12:05 pm,4,RCD,11:15,12:05,11,12
+"The Atlantic World, 1492-1900",MW,11:15 am-12:05 pm,26,AXN,11:15,12:05,11,12
+Discussion,W,01:45 pm-02:35 pm,14,AXN,13:45,14:35,14,15
+Discussion,W,02:50 pm-03:40 pm,12,AXN,14:50,15:40,15,16
+Islam & Mid. East Since 1453,MW,10:10 am-11:00 am,32,AXN,10:10,11:00,10,11
+Discussion,R,01:55 pm-02:45 pm,14,PRS,13:55,14:45,14,15
+Discussion,R,03:00 pm-03:50 pm,18,PRS,15:00,15:50,15,16
+Modern South Asia,TR,11:00 am-12:15 pm,34,AXN,11:00,12:15,11,12
+Modern East Asia,MW,11:15 am-12:05 pm,30,JHN,11:15,12:05,11,12
+Discussion,R,01:55 pm-02:45 pm,16,AXT,13:55,14:45,14,15
+Discussion,R,03:00 pm-03:50 pm,14,AXT,15:00,15:50,15,16
+Diasporas in History,TR,09:30 am-10:45 am,13,MNR,09:30,10:45,9,11
+Diasporas in History,TR,09:30 am-10:45 am,3,MNR,09:30,10:45,9,11
+Hist of American West,MF,09:05 am-09:55 am,44,AXN,09:05,09:55,9,10
+Discussion,W,09:05 am-09:55 am,15,AXN,09:05,09:55,9,10
+Discussion,W,12:30 pm-01:20 pm,14,FIC,12:30,13:20,12,13
+Discussion,R,01:55 pm-02:45 pm,15,FIC,13:55,14:45,14,15
+History of Pre-Modern Japan,TR,01:30 pm-02:45 pm,17,GFD,13:30,14:45,13,15
+History of Pre-Modern Japan,TR,01:30 pm-02:45 pm,10,GFD,13:30,14:45,13,15
+Chinese Philosophy,TR,11:00 am-12:15 pm,19,SDL,11:00,12:15,11,12
+Blood & Iron: 19th-c. Germany,TR,09:30 am-10:45 am,21,SDL,09:30,10:45,9,11
+British History: 1603-1815,MW,09:05 am-09:55 am,19,AXT,09:05,09:55,9,10
+Discussion,F,09:05 am-09:55 am,9,AXT,09:05,09:55,9,10
+Discussion,F,10:10 am-11:00 am,10,AXT,10:10,11:00,10,11
+The Holocaust,TR,01:30 pm-02:45 pm,32,AXN,13:30,14:45,13,15
+"Oil, Opium, and Oligarchs",T,01:30 pm-04:15 pm,15,ATA,13:30,16:15,13,16
+Hist of U.S. Radicalism,W,07:30 pm-10:25 pm,12,LAF,19:30,22:25,19,22
+History of American Women,TR,01:30 pm-02:45 pm,12,WNS,13:30,14:45,13,15
+Rdgs Amer Hi: Cultures-Contact,M,01:30 pm-04:15 pm,9,WTH,13:30,16:15,13,16
+Modernity and its Critique,W,01:30 pm-04:15 pm,11,ATA,13:30,16:15,13,16
+Vermont Life Collab Web,TR,09:30 am-10:45 am,14,AXN,09:30,10:45,9,11
+Monuments/Ideas in Western Art,TR,11:00 am-12:15 pm,55,JHN,11:00,12:15,11,12
+Discussion,F,10:10 am-11:00 am,20,MCA,10:10,11:00,10,11
+Discussion,F,11:15 am-12:05 pm,18,MCA,11:15,12:05,11,12
+Discussion,F,01:30 pm-02:20 pm,17,MCA,13:30,14:20,13,14
+Intro. to Architectural Design,TR,01:30 pm-04:15 pm,20,JHN,13:30,16:15,13,16
+Approaches to Islamic Art,TR,01:30 pm-02:45 pm,32,MCA,13:30,14:45,13,15
+Northern Renaissance Art,TR,09:30 am-10:45 am,19,MCA,09:30,10:45,9,11
+Ancient Egypt: Art & Religion,TR,11:00 am-12:15 pm,23,MCA,11:00,12:15,11,12
+Impressionism/Post-Impression,TR,08:00 am-09:15 am,34,MCA,08:00,09:15,8,9
+Gold/Sex/Death at the Museum,TR,09:30 am-10:45 am,10,MCA,09:30,10:45,9,11
+Ways of Seeing,W,01:30 pm-04:15 pm,10,FIC,13:30,16:15,13,16
+Interm. Architectural Design,MW,01:30 pm-04:15 pm,7,JHN,13:30,16:15,13,16
+Gender and the Making of Space,MW,08:40 am-09:55 am,23,MCA,08:40,09:55,9,10
+Medieval Bodies,TR,03:00 pm-04:15 pm,12,MCA,15:00,16:15,15,16
+Digital Methods: Chinese Gold,M,01:30 pm-04:15 pm,9,LIB,13:30,16:15,13,16
+Senior Thesis Research Seminar,MW,12:15 pm-01:30 pm,17,MCA,12:15,13:30,12,13
+Arch Studies Research Thesis,MW,01:30 pm-04:15 pm,8,JHN,13:30,16:15,13,16
+Accounting/Budgeting/Lib Arts,MW,12:15 pm-01:30 pm,21,AXN,12:15,13:30,12,13
+Intro Business & Enterprise,MW,02:50 pm-04:05 pm,31,AXN,14:50,16:05,15,16
+Discussion,W,07:30 pm-10:25 pm,31,WNS,19:30,22:25,19,22
+Sophomore Seminar/Liberal Arts,R,01:30 pm-04:15 pm,13,MBH,13:30,16:15,13,16
+Sophomore Seminar/Liberal Arts,R,01:30 pm-04:15 pm,7,MBH,13:30,16:15,13,16
+Sophomore Seminar/Liberal Arts,TR,11:00 am-12:15 pm,14,MNR,11:00,12:15,11,12
+3D Computer Animation,TR,11:00 am-12:15 pm,20,AXN,11:00,12:15,11,12
+Introduction to Finance,TR,08:00 am-09:15 am,13,AXN,08:00,09:15,8,9
+Discussion,M,07:30 pm-10:25 pm,13,AXN,19:30,22:25,19,22
+Management and Enterprise,MW,12:15 pm-01:30 pm,16,MNR,12:15,13:30,12,13
+Discussion,W,07:30 pm-10:25 pm,16,AXN,19:30,22:25,19,22
+Design Thinking,T,01:30 pm-04:15 pm,10,AXN,13:30,16:15,13,16
+Reporting and Writing the News,MWF,10:10 am-11:00 am,18,MNR,10:10,11:00,10,11
+Global Health,TR,11:00 am-12:15 pm,34,WNS,11:00,12:15,11,12
+Discussion,F,09:05 am-09:55 am,16,SDL,09:05,09:55,9,10
+Discussion,F,10:10 am-11:00 am,18,SDL,10:10,11:00,10,11
+AS/Habitat: Design Dev.,TR,01:30 pm-04:15 pm,10,JHN,13:30,16:15,13,16
+Intro to Food Systems Issues,MW,12:15 pm-01:30 pm,23,AXN,12:15,13:30,12,13
+Agroecology,TR,11:00 am-12:15 pm,10,ADK,11:00,12:15,11,12
+Capital Markets,TR,03:00 pm-04:15 pm,5,AXN,15:00,16:15,15,16
+Discussion,M,07:30 pm-10:25 pm,5,WNS,19:30,22:25,19,22
+Settling Mind in Wilderness,T,01:30 pm-04:15 pm,7,AXN,13:30,16:15,13,16
+Intro to Intl & Global Studies,TR,09:30 am-10:45 am,77,WNS,09:30,10:45,9,11
+Discussion,R,03:00 pm-03:50 pm,19,AXN,15:00,15:50,15,16
+Discussion,F,09:05 am-09:55 am,21,AXN,09:05,09:55,9,10
+Discussion,F,10:10 am-11:00 am,20,AXN,10:10,11:00,10,11
+Discussion,F,11:15 am-12:05 pm,17,AXN,11:15,12:05,11,12
+The Racial Life of Power,M,01:30 pm-04:15 pm,20,AXN,13:30,16:15,13,16
+Democ Deliberation Citizenship,TR,01:30 pm-02:45 pm,13,RAJ,13:30,14:45,13,15
+Beginning Italian,MWF,08:00 am-08:50 am,12,AXN,08:00,08:50,8,9
+Beginning Italian,MWF,10:10 am-11:00 am,14,ATD,10:10,11:00,10,11
+Beginning Italian,MW,02:50 pm-03:40 pm,5,SDL,14:50,15:40,15,16
+Intro Contemporary Italy,TR,09:30 am-10:45 am,10,JHN,09:30,10:45,9,11
+Intro Contemporary Italy,TR,01:30 pm-02:45 pm,9,LIB,13:30,14:45,13,15
+CSPW: Italy and Migrants,W,01:30 pm-04:15 pm,16,ATD,13:30,16:15,13,16
+First-Year Japanese,TR,11:00 am-12:15 pm,16,AXT,11:00,12:15,11,12
+First-Year Japanese,TR,01:30 pm-02:45 pm,18,MBH,13:30,14:45,13,15
+Drill 1,MWF,10:10 am-11:00 am,18,MBH,10:10,11:00,10,11
+Drill 2,MWF,09:05 am-09:55 am,16,MBH,09:05,09:55,9,10
+Anime Masterworks,MW,02:50 pm-04:05 pm,14,MBH,14:50,16:05,15,16
+Second-Year Japanese,TR,09:30 am-10:45 am,17,WTH,09:30,10:45,9,11
+Drill,MWF,01:45 pm-02:35 pm,10,MBH,13:45,14:35,14,15
+Drill,MWF,11:15 am-12:05 pm,7,MBH,11:15,12:05,11,12
+Intro Japanese Linguistics,TR,11:00 am-12:15 pm,22,MBH,11:00,12:15,11,12
+Gun and Sword: Japan&US Films,MW,12:15 pm-01:30 pm,17,MBH,12:15,13:30,12,13
+Screening,M,07:30 pm-10:25 pm,17,AXT,19:30,22:25,19,22
+Gender In Japan,TR,03:00 pm-04:15 pm,14,MBH,15:00,16:15,15,16
+Third-Year Japanese,TR,09:30 am-10:45 am,5,FIC,09:30,10:45,9,11
+Drill,MW,09:05 am-09:55 am,5,FIC,09:05,09:55,9,10
+Advanced Japanese,TR,03:00 pm-04:15 pm,8,FIC,15:00,16:15,15,16
+Advanced Japanese,MW,12:15 pm-01:30 pm,2,FIC,12:15,13:30,12,13
+Seminar in Japanese Studies,TR,04:30 pm-05:45 pm,6,FIC,16:30,17:45,16,18
+Introduction to College Latin,MWF,10:10 am-11:00 am,4,AXT,10:10,11:00,10,11
+Readings in Latin Literature I,MWF,09:05 am-09:55 am,6,AXT,09:05,09:55,9,10
+Introduction to Linguistics,MW,02:50 pm-04:05 pm,25,WNS,14:50,16:05,15,16
+Intro to Sociolinguistics,TR,01:30 pm-02:45 pm,29,JHN,13:30,14:45,13,15
+Senior Colloquium,R,01:30 pm-04:15 pm,7,CHT,13:30,16:15,13,16
+A World of Mathematics,MWF,11:15 am-12:05 pm,19,WNS,11:15,12:05,11,12
+Intro to Statistical Science,MWF,11:15 am-12:05 pm,26,WNS,11:15,12:05,11,12
+Intro Stats Science Lab,R,09:30 am-10:45 am,26,WNS,09:30,10:45,9,11
+Calculus I,MWF,09:05 am-09:55 am,22,WNS,09:05,09:55,9,10
+Calculus I,MWF,08:00 am-08:50 am,20,WNS,08:00,08:50,8,9
+Calculus II,MWF,09:05 am-09:55 am,15,WNS,09:05,09:55,9,10
+Calculus II,MWF,10:10 am-11:00 am,21,WNS,10:10,11:00,10,11
+Calculus II,MWF,11:15 am-12:05 pm,13,WNS,11:15,12:05,11,12
+Calculus II,MWF,11:15 am-12:05 pm,17,MNR,11:15,12:05,11,12
+Linear Algebra,MWF,08:00 am-08:50 am,22,WNS,08:00,08:50,8,9
+Linear Algebra,MWF,09:05 am-09:55 am,18,WNS,09:05,09:55,9,10
+Linear Algebra,MWF,10:10 am-11:00 am,22,WNS,10:10,11:00,10,11
+Linear Algebra,MWF,11:15 am-12:05 pm,20,WNS,11:15,12:05,11,12
+Linear Algebra,MWF,09:05 am-09:55 am,19,WNS,09:05,09:55,9,10
+Research Design and Analysis,TR,11:00 am-12:15 pm,7,WNS,11:00,12:15,11,12
+Introduction to Data Science,MWF,09:05 am-09:55 am,25,WNS,09:05,09:55,9,10
+Multivariable Calculus,MWF,09:05 am-09:55 am,10,WNS,09:05,09:55,9,10
+Multivariable Calculus,MWF,10:10 am-11:00 am,21,WNS,10:10,11:00,10,11
+Topics in Linear Alg & Diff Eq,TR,09:30 am-10:45 am,24,WNS,09:30,10:45,9,11
+Elementary Number Theory,MWF,09:05 am-09:55 am,27,MNR,09:05,09:55,9,10
+Abstract Algebra I,MWF,10:10 am-11:00 am,22,WNS,10:10,11:00,10,11
+Probability,MWF,11:15 am-12:05 pm,32,WNS,11:15,12:05,11,12
+Mathematical Models,MWF,10:10 am-11:00 am,5,WNS,10:10,11:00,10,11
+Mathematical Models Lab,M,12:30 pm-01:20 pm,4,SDL,12:30,13:20,12,13
+Mathematical Models Lab,M,01:45 pm-02:35 pm,1,SDL,13:45,14:35,14,15
+Real Analysis,MWF,01:45 pm-02:35 pm,11,WNS,13:45,14:35,14,15
+Adv Topics Algebra/Number Thy,TR,01:30 pm-02:45 pm,2,WNS,13:30,14:45,13,15
+Polynomial Method Seminar,TR,03:00 pm-04:15 pm,8,WNS,15:00,16:15,15,16
+Introduction to Western Music,MWF,10:10 am-11:00 am,40,MCA,10:10,11:00,10,11
+What in the World is Music?,MW,02:50 pm-04:05 pm,24,MCA,14:50,16:05,15,16
+Music Theory I: Fundamentals,TR,09:30 am-10:45 am,23,MCA,09:30,10:45,9,11
+Discussion,W,01:45 pm-02:35 pm,23,MCA,13:45,14:35,14,15
+Performance Lab-Choir,MW,04:30 pm-06:30 pm,4,MDC,16:30,18:30,16,18
+Performance Lab- Jazz,MW,04:30 pm-06:30 pm,1,MCA,16:30,18:30,16,18
+Music I,TR,11:00 am-12:15 pm,14,MCA,11:00,12:15,11,12
+Discussion,W,12:30 pm-01:20 pm,14,MCA,12:30,13:20,12,13
+Digital Musician,TR,01:30 pm-02:45 pm,16,AXN,13:30,14:45,13,15
+African Soundscapes,MW,12:15 pm-01:30 pm,8,MCA,12:15,13:30,12,13
+Collab Improv All-Arts Ens,TR,03:00 pm-04:15 pm,10,MCA,15:00,16:15,15,16
+Music Theory II: Diatonic,TR,01:30 pm-02:45 pm,11,MCA,13:30,14:45,13,15
+Discussion,W,12:30 pm-01:20 pm,11,MCA,12:30,13:20,12,13
+Advanced Composition I,TR,01:30 pm-02:45 pm,5,AXN,13:30,14:45,13,15
+Music in Western Cultures,MWF,11:15 am-12:05 pm,8,MCA,11:15,12:05,11,12
+Senior Seminar,TR,09:30 am-10:45 am,4,MCA,09:30,10:45,9,11
+Brain Evolution,MWF,10:10 am-11:00 am,22,MBH,10:10,11:00,10,11
+Cellular/MolecularNeuroscience,TR,09:30 am-10:45 am,20,MBH,09:30,10:45,9,11
+Cellular/Molecular NSCI Lab,W,01:30 pm-04:15 pm,10,MBH,13:30,16:15,13,16
+Cellular/Molecular NSCI Lab,R,01:30 pm-04:15 pm,10,MBH,13:30,16:15,13,16
+Behavioral Neuroscience,TR,09:30 am-10:45 am,17,MBH,09:30,10:45,9,11
+Behavioral Neuroscience Lab,W,01:30 pm-04:15 pm,9,MBH,13:30,16:15,13,16
+Behavioral Neuroscience Lab,R,01:30 pm-04:15 pm,8,MBH,13:30,16:15,13,16
+Neural Coding,T,01:30 pm-04:15 pm,16,MBH,13:30,16:15,13,16
+Contemporary Moral Issues,MW,10:10 am-11:00 am,40,AXT,10:10,11:00,10,11
+Discussion,F,09:05 am-09:55 am,14,AXT,09:05,09:55,9,10
+Discussion,F,10:10 am-11:00 am,12,AXT,10:10,11:00,10,11
+Discussion,F,11:15 am-12:05 pm,14,AXT,11:15,12:05,11,12
+Intro to World Philosophy,TR,01:30 pm-02:45 pm,35,AXT,13:30,14:45,13,15
+Discussion,F,09:05 am-09:55 am,10,PRS,09:05,09:55,9,10
+Discussion,F,10:10 am-11:00 am,12,PRS,10:10,11:00,10,11
+Discussion,F,11:15 am-12:05 pm,13,PRS,11:15,12:05,11,12
+Ancient Greek Philosophy,MW,02:50 pm-04:05 pm,15,OCH,14:50,16:05,15,16
+Philosophy of Law,TR,09:30 am-10:45 am,29,AXT,09:30,10:45,9,11
+Philosophy of Mind,TR,11:00 am-12:15 pm,28,AXN,11:00,12:15,11,12
+Philosophy & Literature,MW,12:15 pm-01:30 pm,14,AXT,12:15,13:30,12,13
+Philosophy of Science,T,01:30 pm-04:15 pm,12,MNR,13:30,16:15,13,16
+Senior Independent Research,M,07:30 pm-10:25 pm,11,AXT,19:30,22:25,19,22
+Archery,MW,10:00 am-10:59 am,9,MFH,10:00,10:59,10,11
+Golf-Int,MW,01:15 pm-03:14 pm,1,MRE,13:15,15:14,13,15
+Kickball,TR,11:00 am-11:59 am,2,VFH,11:00,11:59,11,12
+Massage Intro.,M,07:00 pm-08:59 pm,4,MFH,19:00,20:59,19,21
+Meditation,R,07:30 pm-09:30 pm,11,MFH,19:30,21:30,19,21
+Strength Training,TR,11:00 am-11:59 am,1,MFH,11:00,11:59,11,12
+Strength Training - Beg.,TR,01:00 pm-01:59 pm,1,MFH,13:00,13:59,13,14
+"Speed, Agility & Quickness",MW,09:00 am-09:59 am,2,VFH,09:00,09:59,9,10
+Tennis-Intermediate,TR,11:00 am-11:59 am,4,MFH,11:00,11:59,11,12
+Whiffle Ball,MW,10:00 am-10:59 am,9,VFH,10:00,10:59,10,11
+Yoga,T,07:30 pm-09:30 pm,8,MFH,19:30,21:30,19,21
+Badminton,TR,11:00 am-11:59 am,4,MFH,11:00,11:59,11,12
+CATZ,TR,08:30 am-09:29 am,9,VFH,08:30,09:29,8,9
+Oratory: Trng the Instrument,TR,05:30 pm-06:29 pm,16,VFH,17:30,18:29,17,18
+Squash,TR,10:00 am-10:59 am,3,SQA,10:00,10:59,10,11
+Strength Training,MW,10:00 am-10:59 am,4,MFH,10:00,10:59,10,11
+Sled Training,MW,08:00 am-08:59 am,4,VFH,08:00,08:59,8,9
+Olympic Weightlifting,TR,08:00 am-08:59 am,2,MFH,08:00,08:59,8,9
+Yoga,T,07:30 pm-09:30 pm,12,MFH,19:30,21:30,19,21
+Newtonian Physics,TR,11:00 am-12:15 pm,68,MBH,11:00,12:15,11,12
+Newtonian Physics Lab,M,01:30 pm-04:15 pm,17,MBH,13:30,16:15,13,16
+Newtonian Physics Lab,T,01:30 pm-04:15 pm,17,MBH,13:30,16:15,13,16
+Newtonian Physics Lab,W,01:30 pm-04:15 pm,17,MBH,13:30,16:15,13,16
+Newtonian Physics Lab,R,01:30 pm-04:15 pm,17,MBH,13:30,16:15,13,16
+Electricity & Magnetism,MWF,08:00 am-08:50 am,33,MBH,08:00,08:50,8,9
+Electricity & Magnetism Lab,M,01:30 pm-04:15 pm,18,MBH,13:30,16:15,13,16
+Electricity & Magnetism Lab,T,01:30 pm-04:15 pm,15,MBH,13:30,16:15,13,16
+"Thermo, Fluids, Waves & Optics",MWF,11:15 am-12:05 pm,21,MBH,11:15,12:05,11,12
+"Thermo,Fluids,Waves & Opt Lab",W,01:30 pm-04:15 pm,10,MBH,13:30,16:15,13,16
+"Thermo,Fluids,Waves & Opt Lab",R,01:30 pm-04:15 pm,11,MBH,13:30,16:15,13,16
+Introduction to the Universe,MWF,11:15 am-12:05 pm,49,MBH,11:15,12:05,11,12
+Intro to the Universe Lab,M,01:30 pm-04:15 pm,16,MBH,13:30,16:15,13,16
+Intro to the Universe Lab,T,01:30 pm-04:15 pm,15,MBH,13:30,16:15,13,16
+Intro to the Universe Lab,W,01:30 pm-04:15 pm,18,MBH,13:30,16:15,13,16
+Relativity And Quantum Physics,MWF,01:45 pm-02:35 pm,15,MBH,13:45,14:35,14,15
+Intermediate Electromagnetism,MWF,11:15 am-12:05 pm,12,MBH,11:15,12:05,11,12
+Interm Electromagnetism Dsc,R,03:00 pm-03:50 pm,12,MBH,15:00,15:50,15,16
+Experimental Physics,TR,09:30 am-10:45 am,12,MBH,09:30,10:45,9,11
+Experimental Physics Lab,M,01:30 pm-04:15 pm,4,MBH,13:30,16:15,13,16
+Experimental Physics Lab,T,01:30 pm-04:15 pm,4,MBH,13:30,16:15,13,16
+Experimental Physics Lab,T,07:30 pm-10:25 pm,4,MBH,19:30,22:25,19,22
+Analytical Mechanics,MWF,09:05 am-09:55 am,7,MBH,09:05,09:55,9,10
+Solid State Physics,MWF,10:10 am-11:00 am,6,MBH,10:10,11:00,10,11
+Senior Project,F,01:45 pm-02:35 pm,6,MBH,13:45,14:35,14,15
+Intro to Political Philosophy,TR,09:55 am-10:45 am,47,AXN,09:55,10:45,10,11
+Discussion,W,12:30 pm-01:20 pm,14,MNR,12:30,13:20,12,13
+Discussion,W,01:45 pm-02:35 pm,17,MNR,13:45,14:35,14,15
+Discussion,W,02:50 pm-03:40 pm,16,MNR,14:50,15:40,15,16
+Intro to Comparative Politics,MW,10:10 am-11:00 am,54,WNS,10:10,11:00,10,11
+Intro to Comparative Politics,TR,09:55 am-10:45 am,37,AXT,09:55,10:45,10,11
+Discussion PSCI 0103 B,F,09:05 am-09:55 am,12,SDL,09:05,09:55,9,10
+Discussion PSCI 0103 B,F,10:10 am-11:00 am,13,SDL,10:10,11:00,10,11
+Discussion PSCI 0103 B,F,11:15 am-12:05 pm,13,SDL,11:15,12:05,11,12
+Discussion PSCI 0103 A,F,10:10 am-11:00 am,23,MNR,10:10,11:00,10,11
+Discussion PSCI 0103 A,F,11:15 am-12:05 pm,16,MNR,11:15,12:05,11,12
+Discussion PSCI 0103 A,F,01:30 pm-02:20 pm,14,MNR,13:30,14:20,13,14
+Intro to American Politics,MW,08:40 am-09:55 am,42,AXT,08:40,09:55,9,10
+Discussion,R,11:00 am-11:50 am,14,MNR,11:00,11:50,11,12
+Discussion,R,01:55 pm-02:45 pm,14,MNR,13:55,14:45,14,15
+Discussion,R,03:00 pm-03:50 pm,14,MNR,15:00,15:50,15,16
+International Politics,MW,09:05 am-09:55 am,44,WNS,09:05,09:55,9,10
+International Politics,MW,10:10 am-11:00 am,45,HLD,10:10,11:00,10,11
+Discussion PSCI 0109 A,W,02:50 pm-03:40 pm,14,MNR,14:50,15:40,15,16
+Discussion PSCI 0109 A,F,10:10 am-11:00 am,15,MNR,10:10,11:00,10,11
+Discussion PSCI 0109 A,F,11:15 am-12:05 pm,15,MNR,11:15,12:05,11,12
+Discussion PSCI 109 B,W,12:30 pm-01:20 pm,16,MNR,12:30,13:20,12,13
+Discussion PSCI 0109 B,W,01:45 pm-02:35 pm,17,MNR,13:45,14:35,14,15
+Discussion PSCI 0109 B,W,02:50 pm-03:40 pm,12,MNR,14:50,15:40,15,16
+Intl Environmental Politics,TR,08:00 am-09:15 am,33,AXT,08:00,09:15,8,9
+Free Speech v. Racist Speech,MW,12:15 pm-01:30 pm,15,MNR,12:15,13:30,12,13
+Central/East European Politics,TR,01:30 pm-02:45 pm,12,CHT,13:30,14:45,13,15
+Global Change and Continuity,MW,12:15 pm-01:30 pm,27,WNS,12:15,13:30,12,13
+Discussion,F,09:05 am-09:55 am,9,WTH,09:05,09:55,9,10
+Discussion,F,10:10 am-11:00 am,8,WTH,10:10,11:00,10,11
+Discussion,F,11:15 am-12:05 pm,10,WTH,11:15,12:05,11,12
+Religion and Politics,MW,12:15 pm-01:30 pm,28,WNS,12:15,13:30,12,13
+Authoritarian Politics,MW,02:50 pm-04:05 pm,15,MNR,14:50,16:05,15,16
+Internatl Political Economy,MW,02:50 pm-04:05 pm,21,GFD,14:50,16:05,15,16
+American Constitutional Law,MW,02:50 pm-04:05 pm,13,MNR,14:50,16:05,15,16
+U.S. National Elections,MW,12:15 pm-01:30 pm,25,MNR,12:15,13:30,12,13
+Ancient & Med. Pol. Philosophy,TR,03:00 pm-04:15 pm,11,MNR,15:00,16:15,15,16
+Intl. Order & Organization,TR,11:00 am-11:50 am,20,MNR,11:00,11:50,11,12
+Discussion,F,10:10 am-11:00 am,11,MNR,10:10,11:00,10,11
+Discussion,F,11:15 am-12:05 pm,9,MNR,11:15,12:05,11,12
+Frontiers in Political Science,TR,01:30 pm-02:45 pm,10,SDL,13:30,14:45,13,15
+Game Theory/Political Science,MW,12:15 pm-01:30 pm,11,MNR,12:15,13:30,12,13
+Global Trade Politics,TR,09:30 am-10:45 am,5,MNR,09:30,10:45,9,11
+African Government,TR,09:30 am-10:45 am,14,AXN,09:30,10:45,9,11
+American Slavery & Freedom,TR,01:30 pm-02:45 pm,16,MBH,13:30,14:45,13,15
+Rise of Asia and U.S. Policy,TR,03:00 pm-04:15 pm,18,RAJ,15:00,16:15,15,16
+Beginning Port/RomanceSpeakers,MWF,02:50 pm-03:40 pm,5,HLD,14:50,15:40,15,16
+Beginning Port/RomanceSpeakers,MWF,10:10 am-11:00 am,15,SDL,10:10,11:00,10,11
+Advanced Portuguese,MWF,10:10 am-11:00 am,7,AXN,10:10,11:00,10,11
+Advanced Portuguese - Drill,W,02:50 pm-03:40 pm,3,SDL,14:50,15:40,15,16
+Advanced Portuguese - Drill,M,02:50 pm-03:40 pm,4,SDL,14:50,15:40,15,16
+Afrofuturism Lusophone World,TR,01:30 pm-02:45 pm,11,ATD,13:30,14:45,13,15
+Introduction To Psychology,TR,11:00 am-12:15 pm,30,MBH,11:00,12:15,11,12
+Introduction To Psychology,TR,03:00 pm-04:15 pm,32,MBH,15:00,16:15,15,16
+Introduction To Psychology,TR,01:30 pm-02:45 pm,28,MBH,13:30,14:45,13,15
+Introduction To Psychology,TR,08:00 am-09:15 am,31,MBH,08:00,09:15,8,9
+Discussion PSYC 0105D,W,10:10 am-11:00 am,17,MBH,10:10,11:00,10,11
+Discussion PSYC 0105D,W,11:15 am-12:05 pm,14,MBH,11:15,12:05,11,12
+Discussion PSYC 0105C,F,10:10 am-11:00 am,11,MBH,10:10,11:00,10,11
+Discussion PSYC 0105C,F,11:15 am-12:05 pm,17,MBH,11:15,12:05,11,12
+Discussion PSYC 0105B,W,10:10 am-11:00 am,16,MBH,10:10,11:00,10,11
+Discussion PSYC 0105B,W,11:15 am-12:05 pm,16,MBH,11:15,12:05,11,12
+Discussion PSYC 0105A,M,01:45 pm-02:35 pm,15,MBH,13:45,14:35,14,15
+Discussion PSYC 0105A,M,02:50 pm-03:40 pm,15,MBH,14:50,15:40,15,16
+Psychological Statistics,MWF,11:15 am-12:05 pm,21,MBH,11:15,12:05,11,12
+Psychological Statistics,MWF,09:05 am-09:55 am,20,MBH,09:05,09:55,9,10
+Psych Statistics Lab - 0201B,M,02:50 pm-04:05 pm,20,MBH,14:50,16:05,15,16
+Psych Statistics Lab - 0201A,W,02:50 pm-04:05 pm,21,MBH,14:50,16:05,15,16
+Research Methods in Psychology,TR,01:30 pm-02:45 pm,12,RCD,13:30,14:45,13,15
+Research Methods Lab - 0202A,W,02:50 pm-04:05 pm,12,FIC,14:50,16:05,15,16
+Social Psychology,MW,02:50 pm-04:05 pm,23,MBH,14:50,16:05,15,16
+Emotions,MWF,10:10 am-11:00 am,33,MBH,10:10,11:00,10,11
+Psychological Disorders,TR,11:00 am-12:15 pm,44,MBH,11:00,12:15,11,12
+Discussion,F,09:05 am-09:55 am,17,MBH,09:05,09:55,9,10
+Discussion,F,10:10 am-11:00 am,15,MBH,10:10,11:00,10,11
+Discussion,F,11:15 am-12:05 pm,12,MBH,11:15,12:05,11,12
+Child Development,TR,09:30 am-10:45 am,29,MBH,09:30,10:45,9,11
+Discussion,W,12:30 pm-01:20 pm,13,MBH,12:30,13:20,12,13
+Discussion,W,01:45 pm-02:35 pm,16,MBH,13:45,14:35,14,15
+Cognitive Psychology,TR,08:00 am-09:15 am,19,MBH,08:00,09:15,8,9
+Cognitive Psychology Lab,T,01:30 pm-02:45 pm,10,SDL,13:30,14:45,13,15
+Cognitive Psychology Lab,T,03:00 pm-04:15 pm,9,SDL,15:00,16:15,15,16
+Human Sexuality,TR,01:30 pm-02:45 pm,20,MBH,13:30,14:45,13,15
+Biobehavioral Addiction,TR,09:30 am-10:45 am,23,MBH,09:30,10:45,9,11
+Biobehavioral Addiction Dsc,F,12:30 pm-01:20 pm,23,MBH,12:30,13:20,12,13
+Educational Psychology,TR,11:00 am-12:15 pm,25,RCD,11:00,12:15,11,12
+Cultural Child Development,MW,12:15 pm-01:30 pm,11,MBH,12:15,13:30,12,13
+Memory: A User's Guide,R,01:30 pm-04:15 pm,11,MBH,13:30,16:15,13,16
+Discussion,T,07:30 pm-09:00 pm,1,MBH,19:30,21:00,19,21
+The Ten Commandments,TR,03:00 pm-04:15 pm,29,AXT,15:00,16:15,15,16
+Hindu Traditions of India,MW,12:15 pm-01:30 pm,23,MNR,12:15,13:30,12,13
+Discussion,F,12:30 pm-01:20 pm,23,MNR,12:30,13:20,12,13
+The Islamic Traditions,TR,09:30 am-10:45 am,29,GFD,09:30,10:45,9,11
+Discussion,F,11:15 am-12:05 pm,11,JHN,11:15,12:05,11,12
+Discussion,F,09:05 am-09:55 am,10,JHN,09:05,09:55,9,10
+Discussion,F,10:10 am-11:00 am,8,JHN,10:10,11:00,10,11
+Jewish Traditions,TR,01:30 pm-02:45 pm,15,MNR,13:30,14:45,13,15
+American Religion,TR,11:00 am-12:15 pm,24,AXN,11:00,12:15,11,12
+Discussion,F,09:05 am-09:55 am,11,ADK,09:05,09:55,9,10
+Discussion,F,10:10 am-11:00 am,13,ADK,10:10,11:00,10,11
+Intro to Biblical Literature,MWF,10:10 am-11:00 am,32,AXN,10:10,11:00,10,11
+Discussion,F,11:15 am-12:05 pm,20,AXT,11:15,12:05,11,12
+Discussion,F,12:30 pm-01:20 pm,12,AXT,12:30,13:20,12,13
+Religion in Modern China,TR,08:00 am-09:15 am,18,AXN,08:00,09:15,8,9
+Christian Ethics,TR,09:30 am-10:45 am,28,MNR,09:30,10:45,9,11
+Religion Capitalism Americas,TR,03:00 pm-04:15 pm,12,MNR,15:00,16:15,15,16
+Seminar in Buddhist Studies,MW,12:15 pm-01:30 pm,8,AXT,12:15,13:30,12,13
+Exemplary Lives,MW,02:50 pm-04:05 pm,6,MNR,14:50,16:05,15,16
+Seminar: Study of Religion,TR,01:30 pm-02:45 pm,14,MNR,13:30,14:45,13,15
+Beginning Russian,TR,09:30 am-10:45 am,8,FIC,09:30,10:45,9,11
+Beginning Russian,TR,11:00 am-12:15 pm,12,FIC,11:00,12:15,11,12
+Drill,MWF,12:30 pm-01:20 pm,10,FIC,12:30,13:20,12,13
+Drill,MWF,09:05 am-09:55 am,10,FIC,09:05,09:55,9,10
+Golden Age Russian Literature,T,01:30 pm-04:15 pm,13,FIC,13:30,16:15,13,16
+Intermediate Russian,TR,09:30 am-10:45 am,8,FIC,09:30,10:45,9,11
+Intermediate Russian,TR,11:00 am-12:15 pm,12,FIC,11:00,12:15,11,12
+Drill,MWF,11:15 am-12:05 pm,11,FIC,11:15,12:05,11,12
+Drill,MWF,10:10 am-11:00 am,9,FIC,10:10,11:00,10,11
+Nature and Origin of Language,TR,11:00 am-12:15 pm,5,FIC,11:00,12:15,11,12
+Putinism & Russian Culture,MW,02:50 pm-04:05 pm,25,CHT,14:50,16:05,15,16
+Russian Cult and Civ I,MW,12:15 pm-01:30 pm,6,FIC,12:15,13:30,12,13
+Tolstoy,T,07:30 pm-10:25 pm,13,RAJ,19:30,22:25,19,22
+Senior Seminar,M,07:30 pm-10:25 pm,6,FIC,19:30,22:25,19,22
+Topics in Sociocultural Anthro,MW,11:15 am-12:05 pm,39,WNS,11:15,12:05,11,12
+Discussion,F,09:05 am-09:55 am,14,MNR,09:05,09:55,9,10
+Discussion,F,10:10 am-11:00 am,12,MNR,10:10,11:00,10,11
+Discussion,F,11:15 am-12:05 pm,13,MNR,11:15,12:05,11,12
+Society and the Individual,TR,01:30 pm-02:45 pm,35,HLD,13:30,14:45,13,15
+Society and the Individual,MW,12:15 pm-01:30 pm,37,AXT,12:15,13:30,12,13
+Discussion - SOAN 0105 A,F,10:10 am-11:00 am,15,ATA,10:10,11:00,10,11
+Discussion - SOAN 0105 A,F,11:15 am-12:05 pm,10,ATA,11:15,12:05,11,12
+Discussion - SOAN 0105 A,F,12:30 pm-01:20 pm,10,ATA,12:30,13:20,12,13
+Introduction to Archaeology,MW,09:05 am-09:55 am,46,JHN,09:05,09:55,9,10
+Discussion,F,09:05 am-09:55 am,16,MNR,09:05,09:55,9,10
+Discussion,F,10:10 am-11:00 am,14,MNR,10:10,11:00,10,11
+Discussion,F,11:15 am-12:05 pm,16,MNR,11:15,12:05,11,12
+Sociology of Education,TR,09:30 am-10:45 am,28,RCD,09:30,10:45,9,11
+Native North America,TR,01:30 pm-02:45 pm,18,MNR,13:30,14:45,13,15
+Africa and Anthropology,MWF,01:45 pm-02:35 pm,18,MNR,13:45,14:35,14,15
+The City and Its People,TR,03:00 pm-04:15 pm,19,AXN,15:00,16:15,15,16
+Sociology of Food,MW,12:15 pm-01:30 pm,26,RCD,12:15,13:30,12,13
+Social Life in Age of Big Data,MW,10:10 am-11:00 am,34,AXN,10:10,11:00,10,11
+Discussion,F,10:10 am-11:00 am,18,AXN,10:10,11:00,10,11
+Discussion,F,11:15 am-12:05 pm,16,AXN,11:15,12:05,11,12
+Ethnographic Research,TR,01:30 pm-02:45 pm,9,MNR,13:30,14:45,13,15
+Research Lab,R,03:00 pm-04:15 pm,9,MNR,15:00,16:15,15,16
+Topics in Sociological Theory,TR,09:30 am-10:45 am,21,AXN,09:30,10:45,9,11
+The Long Civil Rights Movement,TR,11:00 am-12:15 pm,21,AXN,11:00,12:15,11,12
+Anthro Political Polarization,MW,12:15 pm-01:30 pm,10,SDL,12:15,13:30,12,13
+Significance of Race in the US,T,07:30 pm-10:25 pm,32,MNR,19:30,22:25,19,22
+Death and the Body,MW,02:50 pm-04:05 pm,24,MNR,14:50,16:05,15,16
+Higher Education and Society,MW,02:50 pm-04:05 pm,16,AXN,14:50,16:05,15,16
+Beginning Spanish I,MWF,09:05 am-09:55 am,19,LIB,09:05,09:55,9,10
+Accelerated Basic Spanish,MWF,09:05 am-09:55 am,9,OCH,09:05,09:55,9,10
+Intermediate Spanish,MWF,08:00 am-08:50 am,18,OCH,08:00,08:50,8,9
+Intermediate Spanish,TR,01:30 pm-02:45 pm,8,MNR,13:30,14:45,13,15
+Intermediate Spanish,MWF,10:10 am-11:00 am,23,LIB,10:10,11:00,10,11
+Drill,W,01:45 pm-02:35 pm,13,LIB,13:45,14:35,14,15
+Drill,R,01:55 pm-02:45 pm,10,LIB,13:55,14:45,14,15
+Drill,T,03:00 pm-03:50 pm,16,MNR,15:00,15:50,15,16
+Drill,R,08:25 am-09:15 am,10,MNR,08:25,09:15,8,9
+Intermediate Spanish II,MWF,01:45 pm-02:35 pm,17,GFD,13:45,14:35,14,15
+Intermediate Spanish II,TR,09:30 am-10:45 am,17,AXT,09:30,10:45,9,11
+Intermediate Spanish II,MWF,11:15 am-12:05 pm,18,LIB,11:15,12:05,11,12
+Intermediate Spanish II,MWF,10:10 am-11:00 am,19,AXN,10:10,11:00,10,11
+Intro to Hispanic Literature,TR,03:00 pm-04:15 pm,18,LIB,15:00,16:15,15,16
+Advanced Spanish Grammar,T,07:30 pm-10:25 pm,16,MNR,19:30,22:25,19,22
+Intro to Galician Studies,TR,09:30 am-10:45 am,15,MBH,09:30,10:45,9,11
+Otherness in Hispanic Lit.,MW,12:15 pm-01:30 pm,18,CHT,12:15,13:30,12,13
+Hispanic Linguistics,MWF,12:30 pm-01:20 pm,15,GFD,12:30,13:20,12,13
+Youth Cultures Spain,TR,11:00 am-12:15 pm,19,SDL,11:00,12:15,11,12
+Geometrizing Power,TR,09:30 am-10:45 am,18,LIB,09:30,10:45,9,11
+Myth of Don Juan,T,01:30 pm-04:15 pm,9,MNR,13:30,16:15,13,16
+Lat Am Cultural Studies,TR,11:00 am-12:15 pm,17,AXT,11:00,12:15,11,12
+Creative Writing: Long Form,TR,11:00 am-12:15 pm,14,MCA,11:00,12:15,11,12
+Studio Art I,TR,01:30 pm-04:15 pm,21,JHN,13:30,16:15,13,16
+Intro to Sculpture-Form&Space,TR,09:30 am-12:15 pm,10,JHN,09:30,12:15,9,12
+Sys&Sen Resp thrh Paint&Design,MT,07:30 pm-10:25 pm,4,JHN,19:30,22:25,19,22
+Draw:Observe/Visualize/Imagine,MT,07:30 pm-10:25 pm,22,JHN,19:30,22:25,19,22
+The Digital Studio,TR,09:30 am-12:15 pm,18,JHN,09:30,12:15,9,12
+Animation,MW,01:30 pm-04:15 pm,11,JHN,13:30,16:15,13,16
+Silkscreen Printmaking,TR,09:30 am-12:15 pm,9,JHN,09:30,12:15,9,12
+Explor Landscpe Paint&Texture,MW,01:30 pm-04:15 pm,12,JHN,13:30,16:15,13,16
+Photog:Origins & Shooting Film,TR,01:30 pm-04:15 pm,14,JHN,13:30,16:15,13,16
+Advanced Studio I,W,07:30 pm-10:25 pm,5,JHN,19:30,22:25,19,22
+Advanced Studio II,W,07:30 pm-10:25 pm,3,JHN,19:30,22:25,19,22
+Acting I: Beginning Acting,MW,02:50 pm-04:05 pm,16,MCA,14:50,16:05,15,16
+Acting I: Beginning Acting,TR,03:00 pm-04:15 pm,17,MCA,15:00,16:15,15,16
+Voices from PostColonial World,TR,01:30 pm-02:45 pm,6,AXN,13:30,14:45,13,15
+Scenic Design I,TR,11:00 am-12:15 pm,8,WTH,11:00,12:15,11,12
+Lighting Design I: Beginning,TR,09:30 am-10:45 am,10,WTH,09:30,10:45,9,11
+Fall Production Studio: Design,MW,01:30 pm-04:15 pm,4,WTH,13:30,16:15,13,16
+Fall Production Studio: Design,MW,01:30 pm-04:15 pm,3,MCA,13:30,16:15,13,16
+Costume Design I: Beginning,TR,03:00 pm-04:15 pm,7,WTH,15:00,16:15,15,16
+Theatre History,TR,09:30 am-10:45 am,13,SDL,09:30,10:45,9,11
+Lighting Design II: Advanced,MWF,08:00 am-08:50 am,3,WTH,08:00,08:50,8,9
+Contemp. American Playwrights,MW,12:15 pm-01:30 pm,14,AXT,12:15,13:30,12,13
+Directing II: Advanced,TR,03:00 pm-04:15 pm,3,SDL,15:00,16:15,15,16
+20th/21st Century Perf. Aesth,TR,11:00 am-12:15 pm,12,AXT,11:00,12:15,11,12
+Discussion,F,08:00 am-08:50 am,1,MCA,08:00,08:50,8,9
+Writing in Academic Contexts I,TR,11:00 am-12:15 pm,15,LIB,11:00,12:15,11,12
+Writing Academic Contexts II,TR,09:30 am-10:45 am,10,CHT,09:30,10:45,9,11
+Cultural Rhetorics,TR,01:30 pm-02:45 pm,15,CHT,13:30,14:45,13,15
+Writing and Experience,TR,11:00 am-12:15 pm,16,ATA,11:00,12:15,11,12
+Science Writing for the Public,TR,09:30 am-10:45 am,19,ATA,09:30,10:45,9,11

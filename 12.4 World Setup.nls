@@ -1,0 +1,513 @@
+; contains label-patches and assign-room
+
+to label-patches
+
+  ask patches [
+    ; if the patch is not black, for now we are saying it is grass
+    set dining? FALSE
+    set academic? FALSE
+    set common? FALSE
+    set dorm? FALSE
+    set name "Grass"
+
+    ; if the patch is black-ish, however
+    if (pcolor < 9) [
+    ; giving coordinates of different buildings
+
+      ; dining halls
+      if (31 < pxcor and pxcor < 63) and (30 < pycor and pycor < 57) [
+        set dining? TRUE
+        set name "ProctorDining"
+      ]
+      if (123 < pxcor and pxcor < 145) and (20 < pycor and pycor < 39) [
+        set dining? TRUE
+        set name "RCD"
+      ]
+      if (143 < pxcor and pxcor < 166) and (-164 < pycor and pycor < -143) [
+        set dining? TRUE
+        set name "ATD"
+      ]
+
+
+      ; common spaces
+      if (-268 < pxcor and pxcor < -166) and (84 < pycor and pycor < 208) [
+        set common? TRUE
+        set name "MFH"
+      ]
+      if (-71 < pxcor and pxcor < -37) and (-139 < pycor and pycor < -78) [
+        set common? TRUE
+        set name "LIB"
+      ]
+      if (-52 < pxcor and pxcor < -31) and (-18 < pycor and pycor < 13) [
+        set common? TRUE
+        set name "McCullough"
+      ]
+
+
+      ; dorms
+      if (71 < pxcor and pxcor < 111) and (-87 < pycor and pycor < -51) [
+        set dorm? TRUE
+        set name "Battell"
+      ]
+      if (30 < pxcor and pxcor < 70) and (-10 < pycor and pycor < 21) [
+        set dorm? TRUE
+        set name "GFD"
+      ]
+      if (-68 < pxcor and pxcor < -44) and (-55 < pycor and pycor < -30) [
+        set dorm? TRUE
+        set name "Starr"
+      ]
+      if (-28 < pxcor and pxcor < -4) and (-84 < pycor and pycor < -67) [
+        set dorm? TRUE
+        set name "Painter"
+      ]
+      if (-13 < pxcor and pxcor < 10) and (18 < pycor and pycor < 50) [
+        set dorm? TRUE
+        set name "HPB"
+      ]
+      if (-50 < pxcor and pxcor < -15) and (28 < pycor and pycor < 61) [
+        set dorm? TRUE
+        set name "Stewart"
+      ]
+      if (9 < pxcor and pxcor < 29) and (-74 < pycor and pycor < -50) [
+        set dorm? TRUE
+        set name "Voter"
+      ]
+      if (70 < pxcor and pxcor < 100) and (-41 < pycor and pycor < 4) [
+        set dorm? TRUE
+        set name "Forest"
+      ]
+      if (118 < pxcor and pxcor < 139) and (-125 < pycor and pycor < -90) [
+        set dorm? TRUE
+        set name "CHT"
+      ]
+      if (121 < pxcor and pxcor < 140) and (-146 < pycor and pycor < -123) [
+        set dorm? TRUE
+        set name "Allen"
+      ]
+      if (156 < pxcor and pxcor < 204) and (-116 < pycor and pycor < -84) [
+        set dorm? TRUE
+        set name "Coffrin"
+      ]
+      if (178 < pxcor and pxcor < 216) and (-136 < pycor and pycor < -111) [
+        set dorm? TRUE
+        set name "ATA"
+      ]
+      if (150 < pxcor and pxcor < 189) and (-140 < pycor and pycor < -118) [
+        set dorm? TRUE
+        set name "AtwaterB"
+      ]
+      if (107 < pxcor and pxcor < 119) and (18 < pycor and pycor < 52) [
+        set dorm? TRUE
+        set name "LAF"
+      ]
+      if (86 < pxcor and pxcor < 107) and (94 < pycor and pycor < 126) [
+        set dorm? TRUE
+        set name "RidgelineSuites"
+      ]
+      if (40 < pxcor and pxcor < 71) and (88 < pycor and pycor < 126) [
+        set dorm? TRUE
+        set name "RidgelineTownhouses"
+      ]
+      if (13 < pxcor and pxcor < 38) and (125 < pycor and pycor < 148) [
+        set dorm? TRUE
+        set name "Tavern"
+      ]
+      if (-9 < pxcor and pxcor < 10) and (144 < pycor and pycor < 166) [
+        set dorm? TRUE
+        set name "Brooker"
+      ]
+      if (35 < pxcor and pxcor < 56) and (172 < pycor and pycor < 193) [
+        set dorm? TRUE
+        set name "Palmer"
+      ]
+      if (59 < pxcor and pxcor < 78) and (137 < pycor and pycor < 163) [
+        set dorm? TRUE
+        set name "Chrome"
+      ]
+      if (137 < pxcor and pxcor < 148) and (127 < pycor and pycor < 139) [
+        set dorm? TRUE
+        set name "HH"
+      ]
+      if (122 < pxcor and pxcor < 131) and (99 < pycor and pycor < 114) [
+        set dorm? TRUE
+        set name "Turner"
+      ]
+      if (-82 < pxcor and pxcor < -68) and (-221 < pycor and pycor < -196) [
+        set dorm? TRUE
+        set name "JewettMill"
+      ]
+      if (-1 < pxcor and pxcor < 10) and (-197 < pycor and pycor < -154) [
+        set dorm? TRUE
+        set name "220CollegePortugueseBeach48SS"
+      ]
+      if (35 < pxcor and pxcor < 42) and (89 < pycor and pycor < 101) [
+        set dorm? TRUE
+        set name "99ADK"
+      ]
+      if (57 < pxcor and pxcor < 68) and (-181 < pycor and pycor < -162) [
+        set dorm? TRUE
+        set name "107Shannon"
+      ]
+      if (77 < pxcor and pxcor < 82) and (58 < pycor and pycor < 69) [
+        set dorm? TRUE
+        set name "33ADK"
+      ]
+      if (-166 < pxcor and pxcor < -145) and (10 < pycor and pycor < 27) [
+        set dorm? TRUE
+        set name "Munford"
+      ]
+      if (-162 < pxcor and pxcor < -142) and (-15 < pycor and pycor < 0) [
+        set dorm? TRUE
+        set name "Meeker"
+      ]
+      if (-172 < pxcor and pxcor < -159) and (-33 < pycor and pycor < -20) [
+        set dorm? TRUE
+        set name "Reliance"
+      ]
+      if (-66 < pxcor and pxcor < -55) and (-185 < pycor and pycor < -170) [
+        set dorm? TRUE
+        set name "Arabic"
+      ]
+      if (-154 < pxcor and pxcor < -132) and (-49 < pycor and pycor < -40) [
+        set dorm? TRUE
+        set name "Porter"
+      ]
+      if (47 < pxcor and pxcor < 53) and (83 < pycor and pycor < 93) [
+        set dorm? TRUE
+        set name "Palana"
+      ]
+      if (112 < pxcor and pxcor < 121) and (85 < pycor and pycor < 98) [
+        set dorm? TRUE
+        set name "Russian"
+      ]
+      if (-71 < pxcor and pxcor < -61) and (-197 < pycor and pycor < -184) [
+        set dorm? TRUE
+        set name "French"
+      ]
+      if (118 < pxcor and pxcor < 135) and (-13 < pycor and pycor < 5) [
+        set dorm? TRUE
+        set name "PRS"
+      ]
+      if (28 < pxcor and pxcor < 34) and (77 < pycor and pycor < 91) [
+        set dorm? TRUE
+        set name "Spanish"
+      ]
+      if (62 < pxcor and pxcor < 66) and (-180 < pycor and pycor < -176) [
+        set dorm? TRUE
+        set name "InSite"
+      ]
+      if (17 < pxcor and pxcor < 31) and (96 < pycor and pycor < 144) [
+        set dorm? TRUE
+        set name "Xenia"
+      ]
+      if (78 < pxcor and pxcor < 83) and (59 < pycor and pycor < 68) [
+        set dorm? TRUE
+        set name "Japanese"
+      ]
+      if (65 < pxcor and pxcor < 70) and (48 < pycor and pycor < 58) [
+        set dorm? TRUE
+        set name "QSH"
+      ]
+      if (-128 < pxcor and pxcor < -112) and (-116 < pycor and pycor < -107) [
+        set dorm? TRUE
+        set name "Chinese"
+      ]
+      if (-56 < pxcor and pxcor < -50) and (-168 < pycor and pycor < -156) [
+        set dorm? TRUE
+        set name "Hebrew"
+      ]
+      if (49 < pxcor and pxcor < 53) and (62 < pycor and pycor < 75) [
+        set dorm? TRUE
+        set name "Italian"
+      ]
+      if (145 < pxcor and pxcor < 161) and (3 < pycor and pycor < 23) [
+        set dorm? TRUE
+        set name "Tower"
+      ]
+      if (143 < pxcor and pxcor < 157) and (-8 < pycor and pycor < 8) [
+        set dorm? TRUE
+        set name "Hadley"
+      ]
+      if (190 < pxcor and pxcor < 204) and (-16 < pycor and pycor < 2) [
+        set dorm? TRUE
+        set name "Lang"
+      ]
+      if (162 < pxcor and pxcor < 190) and (-6 < pycor and pycor < 15) [
+        set dorm? TRUE
+        set name "MillikenKelly"
+      ]
+
+
+      ; academic buildings
+      if (199 < pxcor and pxcor < 272) and (-72 < pycor and pycor < -18) [
+        set academic? TRUE
+        set name "MBH"
+      ]
+      if (-207 < pxcor and pxcor < -162) and (36 < pycor and pycor < 72) [
+        set academic? TRUE
+        set name "MCA"
+      ]
+      if (20 < pxcor and pxcor < 50) and (-46 < pycor and pycor < -21) [
+        set academic? TRUE
+        set name "MNR"
+      ]
+      if (-20 < pxcor and pxcor < 0) and (-119 < pycor and pycor < -95) [
+        set academic? TRUE
+        set name "WNS"
+      ]
+      if (-114 < pxcor and pxcor < -79) and (-56 < pycor and pycor < -26) [
+        set academic? TRUE
+        set name "AXN"
+      ]
+      if (-100 < pxcor and pxcor < -69) and (-37 < pycor and pycor < -7) [
+        set academic? TRUE
+        set name "AXN"
+      ]
+      if (-60 < pxcor and pxcor < -36) and (-225 < pycor and pycor < -202) [
+        set academic? TRUE
+        set name "AXT"
+      ]
+      if (14 < pxcor and pxcor < 22) and (88 < pycor and pycor < 105) [
+        set academic? TRUE
+        set name "RAJ"
+      ]
+      if (66 < pxcor and pxcor < 76) and (13 < pycor and pycor < 32) [
+        set academic? TRUE
+        set name "HLD"
+      ]
+      if (86 < pxcor and pxcor < 98) and (-136 < pycor and pycor < -111) [
+        set academic? TRUE
+        set name "WTH"
+      ]
+      if (97 < pxcor and pxcor < 112) and (0 < pycor and pycor < 18) [
+        set academic? TRUE
+        set name "ADK"
+      ]
+      if (17 < pxcor and pxcor < 31) and (9 < pycor and pycor < 37) [
+        set academic? TRUE
+        set name "MDC"
+      ]
+      if (-43 < pxcor and pxcor < -29) and (-68 < pycor and pycor < -46) [
+        set academic? TRUE
+        set name "OCH"
+      ]
+      if (52 < pxcor and pxcor < 74) and (-128 < pycor and pycor < -102) [
+        set academic? TRUE
+        set name "JHN"
+      ]
+      if (34 < pxcor and pxcor < 44) and (-113 < pycor and pycor < -84) [
+        set academic? TRUE
+        set name "SDL"
+      ]
+      if (215 < pxcor and pxcor < 248) and (-102 < pycor and pycor < -67) [
+        set academic? TRUE
+        set name "FIC"
+      ]
+    ]
+
+  ]
+end
+
+
+to assign-rooms
+
+  ask n-of 250 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Battell"]
+    set unassigned? FALSE
+  ]
+  ask n-of 160 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "GFD"]
+    set unassigned? FALSE
+  ]
+  ask n-of 71 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Starr"]
+    set unassigned? FALSE
+  ]
+  ask n-of 57 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Painter"]
+    set unassigned? FALSE
+  ]
+  ask n-of 169 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "HPB"]
+    set unassigned? FALSE
+  ]
+  ask n-of 156 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Stewart"]
+    set unassigned? FALSE
+  ]
+  ask n-of 39 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Voter"]
+    set unassigned? FALSE
+  ]
+  ask n-of 89 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Forest"]
+    set unassigned? FALSE
+  ]
+  ask n-of 45 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "CHT"]
+    set unassigned? FALSE
+  ]
+  ask n-of 110 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Allen"]
+    set unassigned? FALSE
+  ]
+  ask n-of 122 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Coffrin"]
+    set unassigned? FALSE
+  ]
+  ask n-of 84 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "ATA"]
+    set unassigned? FALSE
+  ]
+  ask n-of 70 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "AtwaterB"]
+    set unassigned? FALSE
+  ]
+  ask n-of 71 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "LAF"]
+    set unassigned? FALSE
+  ]
+  ask n-of 62 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "RidgelineSuites"]
+    set unassigned? FALSE
+  ]
+  ask n-of 96 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "RidgelineTownhouses"]
+    set unassigned? FALSE
+  ]
+  
+  ask n-of 30 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Tavern"]
+    set unassigned? FALSE
+  ]
+  ask n-of 30 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Brooker"]
+    set unassigned? FALSE
+  ]
+  ask n-of 30 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Palmer"]
+    set unassigned? FALSE
+  ]
+  ask n-of 30 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Chrome"]
+    set unassigned? FALSE
+  ]
+  ask n-of 5 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "HH"]
+    set unassigned? FALSE
+  ]
+  ask n-of 6 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Turner"]
+    set unassigned? FALSE
+  ]
+  ask n-of 22 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "JewettMill"]
+    set unassigned? FALSE
+  ]
+  ask n-of 26 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "220CollegePortugueseBeach48SS"]
+    set unassigned? FALSE
+  ]
+  ask n-of 5 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "99ADK"]
+    set unassigned? FALSE
+  ]
+  ask n-of 7 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "107Shannon"]
+    set unassigned? FALSE
+  ]
+  ask n-of 2 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "33ADK"]
+    set unassigned? FALSE
+  ]
+  ask n-of 29 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Munford"]
+    set unassigned? FALSE
+  ]
+  ask n-of 18 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Meeker"]
+    set unassigned? FALSE
+  ]
+  ask n-of 2 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Reliance"]
+    set unassigned? FALSE
+  ]
+  ask n-of 6 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Arabic"]
+    set unassigned? FALSE
+  ]
+  ask n-of 14 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Porter"]
+    set unassigned? FALSE
+  ]
+  ask n-of 8 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Palana"]
+    set unassigned? FALSE
+  ]
+  ask n-of 6 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Russian"]
+    set unassigned? FALSE
+  ]
+  ask n-of 12 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "French"]
+    set unassigned? FALSE
+  ]
+  ask n-of 71 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "PRS"]
+    set unassigned? FALSE
+  ]
+  ask n-of 10 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Spanish"]
+    set unassigned? FALSE
+  ]
+  ask n-of 2 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "InSite"]
+    set unassigned? FALSE
+  ]
+  ask n-of 6 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Xenia"]
+    set unassigned? FALSE
+  ]
+  ask n-of 6 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Japanese"]
+    set unassigned? FALSE
+  ]
+  ask n-of 5 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "QSH"]
+    set unassigned? FALSE
+  ]
+  ask n-of 8 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Chinese"]
+    set unassigned? FALSE
+  ]
+  ask n-of 3 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Hebrew"]
+    set unassigned? FALSE
+  ]
+  ask n-of 6 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Italian"]
+    set unassigned? FALSE
+  ]
+  ask n-of 18 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Tower"]
+    set unassigned? FALSE
+  ]
+  ask n-of 129 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Hadley"]
+    set unassigned? FALSE
+  ]
+  ask n-of 39 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "Lang"]
+    set unassigned? FALSE
+  ]
+  ask n-of 148 turtles with [unassigned? = TRUE] [
+    set room one-of patches with [name = "MillikenKelly"]
+    set unassigned? FALSE
+  ]
+     
+
+  ask turtles [
+    move-to room
+  ]
+end
